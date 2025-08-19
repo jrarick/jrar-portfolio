@@ -61,3 +61,82 @@ table {
 .title {
   text-wrap: balance;
 }
+
+/* View Transitions */
+:root {
+  --duration-enter: 200ms;
+  --duration-exit: 300ms;
+  --duration-move: 200ms;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(30px) scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes fade-out {
+  from {
+    opacity: 1;
+    transform: scale(1);
+  }
+  to {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+}
+
+@keyframes slide-up {
+  from {
+    transform: translateY(40px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* View transition animations */
+::view-transition-new(.animate-fade-in) {
+  animation: fade-in var(--duration-enter) cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+::view-transition-old(.animate-fade-in) {
+  animation: fade-out var(--duration-exit) cubic-bezier(0.55, 0.06, 0.68, 0.19);
+}
+
+::view-transition-new(.animate-slide-up) {
+  animation: slide-up var(--duration-enter) cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+::view-transition-old(.animate-slide-up) {
+  animation: fade-out var(--duration-exit) cubic-bezier(0.55, 0.06, 0.68, 0.19);
+}
+
+/* Shared element transitions */
+::view-transition-group(.animate-morph) {
+  animation-duration: var(--duration-move);
+}
+
+::view-transition-image-pair(.animate-morph) {
+  animation-name: morph-blur;
+}
+
+/* Custom blur animation for smooth morphing */
+@keyframes morph-blur {
+  25% {
+    filter: blur(2px);
+  }
+  50% {
+    filter: blur(3px);
+  }
+  75% {
+    filter: blur(2px);
+  }
+}

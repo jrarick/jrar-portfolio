@@ -3,7 +3,8 @@ import path from "path"
 
 type ProjectMetadata = {
   title: string
-  description?: string
+  description: string
+  projectLink: string
 }
 
 type Metadata = {
