@@ -94,7 +94,7 @@ export default async function Blog({ params }) {
           {formatDate(post.metadata.publishedAt)}
         </p>
       </div>
-      <article className="prose">
+      <article className="prose prose-invert prose-neutral">
         <CustomMDX source={post.content} />
       </article>
     </section>
