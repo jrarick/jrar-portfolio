@@ -53,7 +53,7 @@ type ViewTransitionClass = AnimationType | TransitionMap;
 /**
  * Type for transition element IDs
  */
-type TransitionId = `project-${string}` | 'project-title' | 'project-image';
+type TransitionId = `project-${string}` | 'project-title' | 'project-image' | `blog-${string}` | `blog-title-${string}` | `blog-date-${string}`;
 
 /**
  * Props for TransitionLink component

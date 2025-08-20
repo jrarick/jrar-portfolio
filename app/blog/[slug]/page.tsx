@@ -2,6 +2,7 @@ import { notFound } from "next/navigation"
 import { CustomMDX } from "app/components/mdx"
 import { formatDate, getBlogPosts } from "app/lib/utils"
 import { baseUrl } from "app/sitemap"
+import { SharedTransition, TransitionLink } from "app/lib/transitions"
 
 export async function generateStaticParams() {
   let posts = getBlogPosts()
@@ -86,13 +87,29 @@ export default async function Blog({ params }) {
           }),
         }}
       />
-      <h1 className="title font-semibold text-2xl tracking-tighter">
-        {post.metadata.title}
-      </h1>
+
+      {/* Back to home link */}
+      <div className="mb-8">
+        <TransitionLink
+          href="/blog"
+          type="transition-to-list"
+          className="inline-flex items-center text-sm text-neutral-500 hover:text-neutral-300 transition-colors"
+        >
+          ← All blog posts
+        </TransitionLink>
+      </div>
+
+      <SharedTransition name={`blog-title-${post.slug}`} share="animate-morph">
+        <h1 className="title font-semibold text-2xl tracking-tighter">
+          {post.metadata.title}
+        </h1>
+      </SharedTransition>
       <div className="flex justify-between items-center mt-2 mb-8 text-sm">
-        <p className="text-sm text-neutral-600 dark:text-neutral-400">
-          {formatDate(post.metadata.publishedAt)}
-        </p>
+        <SharedTransition name={`blog-date-${post.slug}`} share="animate-morph">
+          <p className="text-sm text-neutral-600 dark:text-neutral-400">
+            {formatDate(post.metadata.publishedAt)}
+          </p>
+        </SharedTransition>
       </div>
       <article className="prose prose-invert prose-neutral">
         <CustomMDX source={post.content} />

@@ -2,12 +2,36 @@ import Image from "next/image"
 import { getProjects } from "app/lib/utils"
 import { TransitionLink, SharedTransition } from "app/lib/transitions"
 
+const PROJECT_ORDER = [
+  "setpoint-data-suite",
+  "longhorn-design-studio",
+  "shadcn-portable-text-editor",
+  "hydrogen-demo",
+  "support-docs-site",
+  "party-rental-ecommerce-template",
+]
+
 export function Projects() {
   const allProjects = getProjects()
 
+  const projects = allProjects.sort((a, b) => {
+    const aIndex = PROJECT_ORDER.indexOf(a.slug)
+    const bIndex = PROJECT_ORDER.indexOf(b.slug)
+
+    // If both have custom order, use that
+    if (aIndex !== -1 && bIndex !== -1) {
+      return aIndex - bIndex
+    }
+    // If only one has custom order, prioritize it
+    if (aIndex !== -1) return -1
+    if (bIndex !== -1) return 1
+
+    return 0
+  })
+
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-      {allProjects.map((project) => (
+      {projects.map((project) => (
         <TransitionLink
           key={project.slug}
           href={`/projects/${project.slug}`}

@@ -7,11 +7,11 @@ export default function Page() {
     <section>
       <div className="mb-24 max-w-lg">
         <h1 className="mb-2 text-2xl font-semibold tracking-tighter">
-          Hey, I'm Josh
+          Hey, I'm Josh Rarick
         </h1>
         <p className="leading-8 tracking-tight">
           I work across the full stack and specialize in frontend, design, and
-          UX. I'm obsessed with the details.
+          UX. I'm kind of obsessed with the details.
         </p>
       </div>
       <div className="my-24">
