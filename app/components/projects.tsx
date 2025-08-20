@@ -1,5 +1,5 @@
 import Image from "next/image"
-import { getProjects } from "app/blog/utils"
+import { getProjects } from "app/lib/utils"
 import { TransitionLink, SharedTransition } from "app/lib/transitions"
 
 export function Projects() {
@@ -14,7 +14,7 @@ export function Projects() {
           type="transition-to-detail"
           className="block"
         >
-          <article className="relative p-3 rounded-xl border border-neutral-800 hover:bg-neutral-800 transition-colors duration-300">
+          <article className="relative p-3 rounded-xl border border-neutral-800 hover:bg-neutral-800">
             {project.image ? (
               <SharedTransition
                 name={`project-${project.slug}`}
@@ -35,7 +35,7 @@ export function Projects() {
             ) : (
               <div className="mb-2 bg-gradient-to-br from-neutral-600 to-neutral-800 aspect-video rounded-lg" />
             )}
-            <h3 className="font-medium group-hover:text-white transition-colors duration-300">
+            <h3 className="font-medium group-hover:text-white tracking-tight transition-colors duration-300">
               {project.metadata.title}
             </h3>
             <p className="text-sm text-neutral-500 mt-2 group-hover:text-neutral-400 transition-colors duration-300">

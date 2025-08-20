@@ -1,25 +1,34 @@
 import { BlogPosts } from "app/components/posts"
 import { Projects } from "./components/projects"
+import { Tools } from "./components/tools"
 
 export default function Page() {
   return (
     <section>
-      <h1 className="mb-8 text-2xl font-semibold tracking-tighter">
-        My Portfolio
-      </h1>
-      <p className="mb-4">
-        {`I'm a Vim enthusiast and tab advocate, finding unmatched efficiency in
-          Vim's keystroke commands and tabs' flexibility for personal viewing
-          preferences. This extends to my support for static typing, where its
-          early error detection ensures cleaner code, and my preference for dark
-          mode, which eases long coding sessions by reducing eye strain.`}
-      </p>
-      <div className="my-8">
+      <div className="mb-24 max-w-lg">
+        <h1 className="mb-2 text-2xl font-semibold tracking-tighter">
+          Hey, I'm Josh
+        </h1>
+        <p className="leading-8 tracking-tight">
+          I work across the full stack and specialize in frontend, design, and
+          UX. I'm obsessed with the details.
+        </p>
+      </div>
+      <div className="my-24">
+        <h2 className="text-2xl font-semibold mb-6 tracking-tighter">
+          Things I've built
+        </h2>
         <Projects />
       </div>
-      <div className="mb-8 mt-20 max-w-2xl mx-auto">
-        <h2 className="text-lg font-semibold border-b pb-5 mb-5 border-neutral-700">
-          From the blog
+      <div className="my-24">
+        <h2 className="text-2xl font-semibold mb-6 tracking-tighter">
+          Tools I use
+        </h2>
+        <Tools />
+      </div>
+      <div className="my-24 max-w-2xl mx-auto">
+        <h2 className="text-2xl font-semibold tracking-tighter border-b pb-5 mb-5 border-neutral-700">
+          Read the blog
         </h2>
         <BlogPosts />
       </div>

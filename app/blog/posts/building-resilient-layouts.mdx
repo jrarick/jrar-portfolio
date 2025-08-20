@@ -17,19 +17,17 @@ Creating a resilient layout right from the beginning can be challenging but will
 
 ### Stop using flexbox for everything
 
-**Developers default to flexbox for almost everything because:**
+Developers default to flexbox for almost everything because:
 
 - It has a pretty simple API and mental model that primarily deals with one axis
-
 - It creates very flexible layouts that are self-determining
 
-**The big issues are:**
+Unfortunately, this approach has limitations because:
 
 - Many layouts deal with two axes for which flexbox is usually ill-equipped
-
 - Flexibility begets unpredictability so you'll often get surprising, unintended behavior
 
-You _need_ to learn how to use [grid positioning](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout) if you are a professional front end engineer. There are certainly cases where you'll want to reach for flexbox, particularly if you need an element's content to determine how large it will be, but most layout problems are best served by leveraging grid.
+You _need_ to learn how to use [grid](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout) if you are a professional front end engineer. There are certainly cases where you'll want to reach for flexbox, particularly if you need an element's content to determine how large it will be, but most layout problems are best served by leveraging grid.
 
 When you create a grid-like layout with a flexbox salary you end up with layout issues that are "fixed" with dumb workarounds like:
 
@@ -67,11 +65,11 @@ Ideally, you should test what happens to different website sections when there's
 
 Also, it's important to test really long strings within text and see how they perform in different layouts and components. Your content managers might not be using "supercalifragilisticexpialidocious" very often in their writing but pasting a website url with a very long query string at the end might break your layout in some scenarios since there's no sensible place for the browser to break the word. Wrapping extra long words in a span with a "word-break: break-all;" or "word-break: break-word;" style can often alleviate this concern.
 
-There may be scenarios where you can't enforce content constraints from within a CMS and you'll need to get creative to ensure content displays correctly. Clipping or truncating text can be appropriate if excessive superfluous text compromises the integrity of the layout.
+There may be scenarios where you can't enforce content constraints from within a CMS and you'll need to get creative to ensure content displays correctly. Clipping or truncating text can be appropriate if superfluous text compromises the integrity of the layout.
 
 ## Putting it together
 
-Creating resilient layouts is ultimately about anticipating change and designing for adaptability. A balanced Jenga tower can withstand the removal of several pieces and a thoughtfully constructed layout can accommodate changes without collapsing. We need to think about not just what works today, but what continues to work smoothly tomorrow. Your future self (and anyone else who touches your code) is going to thank you for taking the time to build stuff the right way.
+Creating resilient layouts is ultimately about anticipating change and designing with the future in mind. Unlike a Jenga tower, a thoughtfully constructed layout should be able to accommodate changes without collapsing. Your future self (and anyone else who touches your code) is going to thank you for taking the time to build stuff the right way.
 
 ---
 

@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation"
 import { CustomMDX } from "app/components/mdx"
-import { getProjects } from "app/blog/utils"
+import { getProjects } from "app/lib/utils"
 import { baseUrl } from "app/sitemap"
 import Image from "next/image"
 import { SharedTransition, TransitionLink } from "app/lib/transitions"

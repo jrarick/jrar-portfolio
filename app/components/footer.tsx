@@ -17,8 +17,8 @@ function ArrowIcon() {
 
 export default function Footer() {
   return (
-    <footer className="mb-16 max-w-xl mx-auto">
-      <ul className="font-sm mt-8 flex flex-col space-x-0 space-y-2 text-neutral-600 md:flex-row md:space-x-4 md:space-y-0 dark:text-neutral-300">
+    <footer className="my-20 max-w-xl mx-auto">
+      <ul className="font-sm mt-8 flex space-y-2 text-neutral-600 flex-row space-x-4 dark:text-neutral-300">
         <li>
           <a
             className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
@@ -27,7 +27,7 @@ export default function Footer() {
             href="/rss"
           >
             <ArrowIcon />
-            <p className="ml-2 h-7">rss</p>
+            <p className="ml-2 h-7">RSS</p>
           </a>
         </li>
         <li>
@@ -38,10 +38,17 @@ export default function Footer() {
             href="https://github.com/jrarick"
           >
             <ArrowIcon />
-            <p className="ml-2 h-7">github</p>
+            <p className="ml-2 h-7">Github</p>
           </a>
         </li>
       </ul>
+      <a
+        href="https://www.longhorndesign.studio/"
+        target="_blank"
+        className="flex mt-8 items-center transition-all underline underline-offset-2 dark:text-neutral-300 hover:text-neutral-800 dark:hover:text-neutral-100"
+      >
+        Need a website?
+      </a>
     </footer>
   )
 }

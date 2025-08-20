@@ -7,71 +7,53 @@ type ProjectMetadata = {
   projectLink: string
 }
 
-type Metadata = {
+type BlogMetadata = {
   title: string
   publishedAt: string
   summary: string
   image?: string
 }
 
-function parseFrontmatter(fileContent: string) {
+function parseFrontmatter<T extends Record<string, any>>(
+  fileContent: string
+): { metadata: T; content: string } {
   let frontmatterRegex = /---\s*([\s\S]*?)\s*---/
   let match = frontmatterRegex.exec(fileContent)
-  let frontMatterBlock = match![1]
-  let content = fileContent.replace(frontmatterRegex, "").trim()
-  let frontMatterLines = frontMatterBlock.trim().split("\n")
-  let metadata: Partial<Metadata> = {}
 
-  frontMatterLines.forEach((line) => {
-    let [key, ...valueArr] = line.split(": ")
-    let value = valueArr.join(": ").trim()
-    value = value.replace(/^['"](.*)['"]$/, "$1") // Remove quotes
-    metadata[key.trim() as keyof Metadata] = value
-  })
-
-  return { metadata: metadata as Metadata, content }
-}
-
-function parseProjectFrontmatter(fileContent: string) {
-  let frontmatterRegex = /---\s*([\s\S]*?)\s*---/
-  let match = frontmatterRegex.exec(fileContent)
   if (!match) {
     throw new Error("Invalid frontmatter")
   }
 
-  let frontMatterBlock = match![1]
+  let frontMatterBlock = match[1]
   let content = fileContent.replace(frontmatterRegex, "").trim()
   let frontMatterLines = frontMatterBlock.trim().split("\n")
-  let metadata: Partial<ProjectMetadata> = {}
+  let metadata: Partial<T> = {}
 
   frontMatterLines.forEach((line) => {
     let [key, ...valueArr] = line.split(": ")
     let value = valueArr.join(": ").trim()
     value = value.replace(/^['"](.*)['"]$/, "$1") // Remove quotes
-    metadata[key.trim() as keyof ProjectMetadata] = value
+    metadata[key.trim() as keyof T] = value as T[keyof T]
   })
 
-  return { metadata: metadata as ProjectMetadata, content }
+  return { metadata: metadata as T, content }
 }
 
-function getMDXFiles(dir) {
+function getMDXFiles(dir: string): string[] {
   return fs.readdirSync(dir).filter((file) => path.extname(file) === ".mdx")
 }
 
-function readMDXFile(filePath) {
+function readMDXFile<T extends Record<string, any>>(
+  filePath: string
+): { metadata: T; content: string } {
   let rawContent = fs.readFileSync(filePath, "utf-8")
-  return parseFrontmatter(rawContent)
+  return parseFrontmatter<T>(rawContent)
 }
 
-function readProjectMDXFile(filePath) {
-  let rawContent = fs.readFileSync(filePath, "utf-8")
-  return parseProjectFrontmatter(rawContent)
-}
-
-function getMDXData(dir) {
+function getMDXData<T extends Record<string, any>>(dir: string) {
   let mdxFiles = getMDXFiles(dir)
   return mdxFiles.map((file) => {
-    let { metadata, content } = readMDXFile(path.join(dir, file))
+    let { metadata, content } = readMDXFile<T>(path.join(dir, file))
     let slug = path.basename(file, path.extname(file))
 
     return {
@@ -83,7 +65,9 @@ function getMDXData(dir) {
 }
 
 export function getBlogPosts() {
-  return getMDXData(path.join(process.cwd(), "app", "blog", "posts"))
+  return getMDXData<BlogMetadata>(
+    path.join(process.cwd(), "app", "blog", "posts")
+  )
 }
 
 export function getProjects() {
@@ -105,7 +89,7 @@ export function getProjects() {
   })
 
   return mdxFiles.map((file) => {
-    const { metadata, content } = readProjectMDXFile(
+    const { metadata, content } = readMDXFile<ProjectMetadata>(
       path.join(projectsCollectionDir, file)
     )
     const slug = path.basename(file, path.extname(file))

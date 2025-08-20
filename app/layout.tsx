@@ -1,13 +1,13 @@
 import "./global.css"
 import type { Metadata } from "next"
-import { Outfit, JetBrains_Mono } from "next/font/google"
+import { JetBrains_Mono, Inter } from "next/font/google"
 import { Navbar } from "./components/nav"
 import { Analytics } from "@vercel/analytics/react"
 import { SpeedInsights } from "@vercel/speed-insights/next"
 import Footer from "./components/footer"
 import { baseUrl } from "./sitemap"
 
-const outfit = Outfit({
+const inter = Inter({
   subsets: ["latin"],
   variable: "--font-outfit",
 })
@@ -57,7 +57,7 @@ export default function RootLayout({
       lang="en"
       className={cx(
         "text-black bg-white dark:text-white dark:bg-neutral-900",
-        outfit.variable,
+        inter.className,
         jetbrainsMono.variable
       )}
     >
