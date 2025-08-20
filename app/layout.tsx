@@ -20,15 +20,15 @@ const jetbrainsMono = JetBrains_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
   title: {
-    default: "Next.js Portfolio Starter",
-    template: "%s | Next.js Portfolio Starter",
+    default: "JRAR.dev",
+    template: "%s | JRAR.dev",
   },
-  description: "This is my portfolio.",
+  description: "This is my personal portfolio and blog.",
   openGraph: {
-    title: "My Portfolio",
-    description: "This is my portfolio.",
+    title: "Josh Rarick's Portfolio",
+    description: "This is my personal portfolio and blog.",
     url: baseUrl,
-    siteName: "My Portfolio",
+    siteName: "JRAR.dev",
     locale: "en_US",
     type: "website",
   },
