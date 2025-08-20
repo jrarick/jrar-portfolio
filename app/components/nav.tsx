@@ -1,11 +1,14 @@
 import Link from "next/link"
+import { HomeIcon, Pencil1Icon } from "@radix-ui/react-icons"
 
 const navItems = {
   "/": {
     name: "Home",
+    icon: HomeIcon,
   },
   "/blog": {
     name: "Blog",
+    icon: Pencil1Icon,
   },
 }
 
@@ -18,14 +21,16 @@ export function Navbar() {
           id="nav"
         >
           <div className="flex flex-row space-x-0 pr-10">
-            {Object.entries(navItems).map(([path, { name }]) => {
+            {Object.entries(navItems).map(([path, { name, icon }]) => {
+              const Icon = icon
               return (
                 <Link
                   key={path}
                   href={path}
-                  className="hover:text-neutral-800 dark:hover:text-neutral-300 font-medium flex align-middle relative py-1 px-2 m-1"
+                  className="hover:text-neutral-800 dark:hover:text-neutral-300 font-medium flex items-center space-x-2 align-middle relative py-1 px-2 m-1"
                 >
-                  {name}
+                  <Icon />
+                  <span>{name}</span>
                 </Link>
               )
             })}
