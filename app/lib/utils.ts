@@ -64,6 +64,10 @@ function getMDXData<T extends Record<string, any>>(dir: string) {
   })
 }
 
+export function getAbout() {
+  return getMDXData(path.join(process.cwd(), "app", "about"))
+}
+
 export function getBlogPosts() {
   return getMDXData<BlogMetadata>(
     path.join(process.cwd(), "app", "blog", "posts")

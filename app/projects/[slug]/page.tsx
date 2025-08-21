@@ -4,6 +4,7 @@ import { getProjects } from "app/lib/utils"
 import { baseUrl } from "app/sitemap"
 import Image from "next/image"
 import { SharedTransition, TransitionLink } from "app/lib/transitions"
+import { ArrowLeftIcon } from "@radix-ui/react-icons"
 
 export async function generateStaticParams() {
   let projects = getProjects()
@@ -86,9 +87,10 @@ export default async function Project({ params }) {
         <TransitionLink
           href="/"
           type="transition-to-list"
-          className="inline-flex items-center text-sm text-neutral-500 hover:text-neutral-300 transition-colors"
+          className="inline-flex items-center text-sm space-x-2 text-neutral-500 hover:text-neutral-300 transition-colors"
         >
-          ← Back
+          <ArrowLeftIcon />
+          <span>Back</span>
         </TransitionLink>
       </div>
 

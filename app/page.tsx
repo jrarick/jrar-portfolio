@@ -5,13 +5,13 @@ import { Tools } from "./components/tools"
 export default function Page() {
   return (
     <section>
-      <div className="mb-24 max-w-lg">
+      <div className="mb-24 max-w-xl mx-auto">
         <h1 className="mb-2 text-2xl font-semibold tracking-tighter">
           Hey, I'm Josh Rarick
         </h1>
         <p className="leading-8 tracking-tight">
           I work across the full stack and specialize in frontend, design, and
-          UX. I'm kind of obsessed with the details.
+          UX. I pay attention to the details (even the small ones).
         </p>
       </div>
       <div className="my-24">

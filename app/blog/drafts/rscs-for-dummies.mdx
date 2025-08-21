@@ -1,0 +1,18 @@
+---
+title: "React Server Components for dummies"
+publishedAt: "2025-08-20"
+---
+
+Hi it's me. I'm dummy. React Server Components (or RSCs as we'll refer to them) have been around for a while now, but I've only had a shallow understanding of what exactly they are and how they work. So I decided the best way to comprehensively learn RSCs in and out would be to force myself to write about them in a way others could understand. In order to make sense of how we got to where we are now, let's start at the beginning.
+
+## Single Page Applications (SPAs)
+
+SPAs were the way most React apps were built for a long time. The entire client bundle and an index.html file is served up front on initial app load and the server's role after that was really just to respond to API requests and serve assets. All navigation and form submissions are intercepted and handled with JavaScript to prevent full page reloads.
+
+This of course comes with downsides as the initial load is painfully slow, especially for larger apps. This has consequences for sites or apps that rely on SEO, as metrics like Time to First Byte (TTFB) and Largest Contentful Paint (LCP) are pretty abysmal with SPAs. Also, if JavaScript is disabled or fails to load, the app just won't work at all.
+
+A strange consequence of this approach was that many React devs from the SPA era didn't even know about the standard behavior of forms since they were always handled with client-side JavaScript. `e.preventDefault()` was a standard part of any form submission and every input needed to be controlled and managed through React state. This deviation from the native behavior web platform just served to complicate things and make core parts of the web experience more fragile.
+
+## Server Side Rendering (SSR)
+
+Since the user's device can often be quite slow and servers are usually quite fast, an idea was hatched. Have the server do the heavy lifting and send the client a fully rendered page on the initial load.

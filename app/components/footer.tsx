@@ -1,24 +1,9 @@
-function ArrowIcon() {
-  return (
-    <svg
-      width="12"
-      height="12"
-      viewBox="0 0 12 12"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <path
-        d="M2.07102 11.3494L0.963068 10.2415L9.2017 1.98864H2.83807L2.85227 0.454545H11.8438V9.46023H10.2955L10.3097 3.09659L2.07102 11.3494Z"
-        fill="currentColor"
-      />
-    </svg>
-  )
-}
+import { ArrowTopRightIcon } from "@radix-ui/react-icons"
 
 export default function Footer() {
   return (
-    <footer className="my-20 max-w-xl mx-auto">
-      <ul className="font-sm mt-8 flex space-y-2 text-neutral-600 flex-row space-x-4 dark:text-neutral-300">
+    <footer className="my-20 max-w-xl mx-auto flex flex-col items-center">
+      <ul className="font-sm mt-8 flex text-neutral-600 flex-row space-x-8 dark:text-neutral-300">
         <li>
           <a
             className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
@@ -26,8 +11,8 @@ export default function Footer() {
             target="_blank"
             href="/rss"
           >
-            <ArrowIcon />
-            <p className="ml-2 h-7">RSS</p>
+            <ArrowTopRightIcon />
+            <p className="ml-2">RSS</p>
           </a>
         </li>
         <li>
@@ -37,8 +22,8 @@ export default function Footer() {
             target="_blank"
             href="https://github.com/jrarick"
           >
-            <ArrowIcon />
-            <p className="ml-2 h-7">Github</p>
+            <ArrowTopRightIcon />
+            <p className="ml-2">Github</p>
           </a>
         </li>
       </ul>

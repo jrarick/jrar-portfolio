@@ -3,6 +3,7 @@ import { CustomMDX } from "app/components/mdx"
 import { formatDate, getBlogPosts } from "app/lib/utils"
 import { baseUrl } from "app/sitemap"
 import { SharedTransition, TransitionLink } from "app/lib/transitions"
+import { ArrowLeftIcon } from "@radix-ui/react-icons"
 
 export async function generateStaticParams() {
   let posts = getBlogPosts()
@@ -93,9 +94,10 @@ export default async function Blog({ params }) {
         <TransitionLink
           href="/blog"
           type="transition-to-list"
-          className="inline-flex items-center text-sm text-neutral-500 hover:text-neutral-300 transition-colors"
+          className="inline-flex items-center text-sm space-x-2 text-neutral-500 hover:text-neutral-300 transition-colors"
         >
-          ← All blog posts
+          <ArrowLeftIcon />
+          <span>All blog posts</span>
         </TransitionLink>
       </div>
 
