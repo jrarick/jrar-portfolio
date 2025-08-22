@@ -7,7 +7,7 @@ export const metadata = {
 
 export default function Page() {
   return (
-    <section className="max-w-2xl mx-auto">
+    <section className="max-w-2xl mx-auto my-16">
       <h1 className="font-semibold text-2xl mb-8 tracking-tighter">
         From the blog
       </h1>
