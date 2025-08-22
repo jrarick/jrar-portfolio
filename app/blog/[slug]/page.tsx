@@ -113,7 +113,7 @@ export default async function Blog({ params }) {
           </p>
         </SharedTransition>
       </div>
-      <article className="prose prose-invert prose-neutral">
+      <article className="prose dark:prose-invert prose-neutral">
         <CustomMDX source={post.content} />
       </article>
     </section>

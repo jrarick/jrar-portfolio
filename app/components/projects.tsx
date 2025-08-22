@@ -38,7 +38,7 @@ export function Projects() {
           type="transition-to-detail"
           className="block"
         >
-          <article className="relative p-3 rounded-xl border border-neutral-800 hover:bg-neutral-800">
+          <article className="relative p-3 rounded-xl border border-neutral-200 dark:border-neutral-800 hover:bg-neutral-100 dark:hover:bg-neutral-800">
             {project.image ? (
               <SharedTransition
                 name={`project-${project.slug}`}

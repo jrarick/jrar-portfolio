@@ -83,7 +83,7 @@ const tools: Tool[] = [
 export function Tools() {
   return (
     <section>
-      <div className="grid grid-cols-3 sm:grid-cols-5 md:grid-cols-6 divide-x divide-y divide-neutral-800 border-l border-t border-neutral-800 [&>a:last-child]:border-b [&>a:last-child]:border-r [&>a:last-child]:border-neutral-800">
+      <div className="grid grid-cols-3 sm:grid-cols-5 md:grid-cols-6 divide-x divide-y divide-neutral-200 dark:divide-neutral-800 border-l border-t border-neutral-200 dark:border-neutral-800 [&>a:last-child]:border-b [&>a:last-child]:border-r [&>a:last-child]:border-neutral-200 dark:[&>a:last-child]:border-neutral-800">
         {tools.map((tool) => {
           return (
             <a
@@ -91,7 +91,7 @@ export function Tools() {
               href={tool.website}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex flex-col items-center py-4 sm:py-6 md:py-8 group hover:bg-neutral-800"
+              className="flex flex-col items-center py-4 sm:py-6 md:py-8 group hover:bg-neutral-100 dark:hover:bg-neutral-800"
             >
               <div className="size-6 sm:size-8 md:size-12 mb-2 flex items-center justify-center">
                 <Image
@@ -102,7 +102,7 @@ export function Tools() {
                   className="object-contain aspect-square grayscale-100 group-hover:grayscale-0 brightness-90 group-hover:brightness-100"
                 />
               </div>
-              <span className="text-xs text-center text-neutral-400">
+              <span className="text-xs text-center text-neutral-500 dark:text-neutral-400">
                 {tool.name}
               </span>
             </a>

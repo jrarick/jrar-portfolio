@@ -1,6 +1,8 @@
 @import "tailwindcss";
 @plugin "@tailwindcss/typography";
 
+@custom-variant dark (&:is(.dark *));
+
 ::selection {
   background-color: #47a3f3;
   color: #fefefe;
@@ -19,11 +21,12 @@
 }
 
 html {
-  color-scheme: dark;
+  min-width: 360px;
+  @apply bg-neutral-50;
 }
 
-html {
-  min-width: 360px;
+html.dark {
+  @apply bg-neutral-900;
 }
 
 pre::-webkit-scrollbar {

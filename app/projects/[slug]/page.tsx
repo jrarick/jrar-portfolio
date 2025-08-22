@@ -109,7 +109,7 @@ export default async function Project({ params }) {
               href={project.metadata.projectLink}
               target="_blank"
               rel="noopener noreferrer"
-              className="ring-2 hover:ring-neutral-500 ring-transparent rounded-lg transition-[box-shadow] duration-100"
+              className="ring-2 hover:ring-neutral-400 dark:hover:ring-neutral-500 ring-transparent rounded-lg transition-[box-shadow] duration-100"
             >
               <Image
                 src={`/projects-assets/${project.image}`}
@@ -124,7 +124,7 @@ export default async function Project({ params }) {
         </div>
       )}
 
-      <article className="prose prose-invert prose-neutral mx-auto">
+      <article className="prose dark:prose-invert prose-neutral mx-auto">
         <h1 className="title font-semibold text-2xl tracking-tighter mb-8">
           {project.metadata.title}
         </h1>

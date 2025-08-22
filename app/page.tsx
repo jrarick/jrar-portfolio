@@ -27,8 +27,8 @@ export default function Page() {
         <Tools />
       </div>
       <div className="my-24 max-w-2xl mx-auto">
-        <h2 className="text-2xl font-semibold tracking-tighter border-b pb-5 mb-5 border-neutral-700">
-          Read the blog
+        <h2 className="text-2xl font-semibold tracking-tighter border-b pb-5 mb-5 border-neutral-300 dark:border-neutral-700">
+          From the blog
         </h2>
         <BlogPosts />
       </div>

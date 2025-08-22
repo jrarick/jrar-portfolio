@@ -1,8 +1,13 @@
 import { ArrowTopRightIcon } from "@radix-ui/react-icons"
+import ThemeSwitcher from "./theme-switcher"
 
 export default function Footer() {
   return (
     <footer className="my-20 max-w-xl mx-auto flex flex-col items-center">
+      <div className="mb-2">
+        <ThemeSwitcher />
+      </div>
+
       <ul className="font-sm mt-8 flex text-neutral-600 flex-row space-x-8 dark:text-neutral-300">
         <li>
           <a
