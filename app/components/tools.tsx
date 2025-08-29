@@ -45,6 +45,11 @@ const tools: Tool[] = [
   },
   { name: "React", image: "react-icon.svg", website: "https://react.dev" },
   {
+    name: "React Aria",
+    image: "react-aria-icon.svg",
+    website: "https://react-spectrum.adobe.com/react-aria/index.html",
+  },
+  {
     name: "React Router",
     image: "react-router-icon.svg",
     website: "https://reactrouter.com",
