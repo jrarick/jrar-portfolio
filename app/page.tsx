@@ -11,7 +11,7 @@ export default function Page() {
         </h1>
         <p className="leading-8 tracking-tight">
           I work across the full stack and specialize in frontend, design, and
-          UX. I pay attention to the details of user interfaces.
+          UX. I sweat the details of user interfaces.
         </p>
       </div>
       <div className="my-24">
