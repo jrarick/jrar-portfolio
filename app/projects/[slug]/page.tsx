@@ -60,7 +60,7 @@ export default async function Project({ params }) {
   }
 
   return (
-    <section>
+    <section className="pt-8">
       <script
         type="application/ld+json"
         suppressHydrationWarning
@@ -87,7 +87,7 @@ export default async function Project({ params }) {
         <TransitionLink
           href="/"
           type="transition-to-list"
-          className="inline-flex items-center text-sm space-x-2 text-neutral-500 hover:text-neutral-300 transition-colors"
+          className="inline-flex items-center space-x-2 text-sm text-neutral-500 transition-colors hover:text-neutral-300"
         >
           <ArrowLeftIcon />
           <span>Back</span>
@@ -109,14 +109,14 @@ export default async function Project({ params }) {
               href={project.metadata.projectLink}
               target="_blank"
               rel="noopener noreferrer"
-              className="ring-2 hover:ring-neutral-400 dark:hover:ring-neutral-500 ring-transparent rounded-lg transition-[box-shadow] duration-100"
+              className="rounded-lg ring-2 ring-transparent transition-[box-shadow] duration-100 hover:ring-neutral-400 dark:hover:ring-neutral-500"
             >
               <Image
                 src={`/projects-assets/${project.image}`}
                 alt={project.metadata.title}
                 width={800}
                 height={400}
-                className="rounded-lg w-full h-auto"
+                className="h-auto w-full rounded-lg"
                 priority
               />
             </a>
@@ -125,7 +125,7 @@ export default async function Project({ params }) {
       )}
 
       <article className="prose dark:prose-invert prose-neutral mx-auto">
-        <h1 className="title font-semibold text-2xl tracking-tighter mb-8">
+        <h1 className="title mb-8 text-2xl font-semibold tracking-tighter">
           {project.metadata.title}
         </h1>
         <CustomMDX source={project.content} />

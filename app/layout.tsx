@@ -1,21 +1,27 @@
 import "./global.css"
 import type { Metadata } from "next"
-import { JetBrains_Mono, Inter } from "next/font/google"
+import { Raleway, Inter, Bebas_Neue, PT_Serif } from "next/font/google"
 import { Navbar } from "./components/nav"
 import { Analytics } from "@vercel/analytics/react"
 import { SpeedInsights } from "@vercel/speed-insights/next"
 import Footer from "./components/footer"
 import { baseUrl } from "./sitemap"
-import { ThemeProvider } from "next-themes"
 
 const inter = Inter({
   subsets: ["latin"],
   variable: "--font-outfit",
 })
 
-const jetbrainsMono = JetBrains_Mono({
+const bebasNeue = Bebas_Neue({
   subsets: ["latin"],
-  variable: "--font-jetbrains-mono",
+  weight: "400",
+  variable: "--font-bebas-neue",
+})
+
+const ptSerif = PT_Serif({
+  subsets: ["latin"],
+  weight: ["400", "700"],
+  variable: "--font-pt-serif",
 })
 
 export const metadata: Metadata = {
@@ -56,26 +62,25 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={cx(inter.className, jetbrainsMono.variable)}
+      className={cx(ptSerif.variable, bebasNeue.variable, "bg-alabaster")}
       suppressHydrationWarning
     >
-      <body>
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="system"
-          enableSystem
-          disableTransitionOnChange
-        >
-          <div className="antialiased w-full px-4 pt-8 text-black bg-neutral-50 dark:text-white dark:bg-neutral-900">
-            <main className="flex-auto min-w-0 mt-6 flex flex-col px-2 md:px-0 max-w-5xl mx-auto">
-              <Navbar />
-              {children}
-              <Footer />
-              <Analytics />
-              <SpeedInsights />
-            </main>
+      <body className="antialiased w-full text-black flex">
+        <div className="border-r border-zinc-300 w-16 h-dvh hidden sm:flex items-center fixed left-0 top-0">
+          <div className="-rotate-90 -ml-8 whitespace-nowrap">
+            Built in Austin TX
           </div>
-        </ThemeProvider>
+        </div>
+        <main className="flex flex-col items-center px-4 sm:px-16 w-full mt-16">
+          <Navbar />
+          <div className="flex-auto min-w-0 flex flex-col max-w-full">
+            {children}
+          </div>
+          <Footer />
+          <Analytics />
+          <SpeedInsights />
+        </main>
+        <div className="border-l border-zinc-300 w-16 h-dvh hidden sm:flex flex-col justify-between fixed right-0 top-0" />
       </body>
     </html>
   )

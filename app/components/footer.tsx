@@ -1,17 +1,12 @@
 import { ArrowTopRightIcon } from "@radix-ui/react-icons"
-import ThemeSwitcher from "./theme-switcher"
 
 export default function Footer() {
   return (
-    <footer className="my-20 max-w-xl mx-auto flex flex-col items-center">
-      <div className="mb-2">
-        <ThemeSwitcher />
-      </div>
-
-      <ul className="font-sm mt-8 flex text-neutral-600 flex-row space-x-8 dark:text-neutral-300">
+    <footer className="mx-auto mt-20 flex max-w-xl flex-col items-center">
+      <ul className="font-sm mt-8 flex flex-row space-x-8 text-zinc-600 dark:text-zinc-300">
         <li>
           <a
-            className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
+            className="flex items-center transition-all hover:text-zinc-800 dark:hover:text-zinc-100"
             rel="noopener noreferrer"
             target="_blank"
             href="/rss"
@@ -22,7 +17,7 @@ export default function Footer() {
         </li>
         <li>
           <a
-            className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
+            className="flex items-center transition-all hover:text-zinc-800 dark:hover:text-zinc-100"
             rel="noopener noreferrer"
             target="_blank"
             href="https://github.com/jrarick"
@@ -35,10 +30,11 @@ export default function Footer() {
       <a
         href="https://www.longhorndesign.studio/"
         target="_blank"
-        className="flex mt-8 items-center transition-all underline underline-offset-2 dark:text-neutral-300 hover:text-neutral-800 dark:hover:text-neutral-100"
+        className="mt-8 flex items-center underline underline-offset-2 transition-all hover:text-zinc-800 dark:text-zinc-300 dark:hover:text-zinc-100"
       >
         Need a website?
       </a>
+      <div className="z-30 h-16 w-dvw border-t border-zinc-300" />
     </footer>
   )
 }

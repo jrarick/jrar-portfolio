@@ -3,9 +3,9 @@
 
 @custom-variant dark (&:is(.dark *));
 
-::selection {
-  background-color: #47a3f3;
-  color: #fefefe;
+@theme {
+  --font-display: var(--font-bebas-neue);
+  --color-alabaster: oklch(0.96 0 0);
 }
 
 :root {
@@ -18,15 +18,14 @@
   --sh-jsxliterals: #6266d1;
   --sh-property: #e25a1c;
   --sh-entity: #e25a1c;
+  --duration-enter: 200ms;
+  --duration-exit: 300ms;
+  --duration-move: 200ms;
 }
 
 html {
   min-width: 360px;
-  @apply bg-neutral-50;
-}
-
-html.dark {
-  @apply bg-neutral-900;
+  font-family: var(--font-pt-serif);
 }
 
 pre::-webkit-scrollbar {
@@ -55,13 +54,6 @@ table {
 
 .title {
   text-wrap: balance;
-}
-
-/* View Transitions */
-:root {
-  --duration-enter: 200ms;
-  --duration-exit: 300ms;
-  --duration-move: 200ms;
 }
 
 @keyframes fade-in {

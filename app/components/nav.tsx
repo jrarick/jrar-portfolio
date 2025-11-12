@@ -1,10 +1,6 @@
 import Link from "next/link"
-import { HomeIcon, PersonIcon, PilcrowIcon } from "@radix-ui/react-icons"
 
 const navItems = {
-  "/": {
-    name: "Home",
-  },
   "/about": {
     name: "About",
   },
@@ -18,24 +14,28 @@ const navItems = {
 
 export function Navbar() {
   return (
-    <aside className="mb-16 tracking-tight">
-      <nav
-        className="flex flex-row items-start justify-center relative px-0 pb-0 fade md:overflow-auto scroll-pr-6 md:relative"
-        id="nav"
-      >
-        <div className="flex flex-row space-x-8">
-          {Object.entries(navItems).map(([path, { name }]) => {
-            return (
-              <Link
-                key={path}
-                href={path}
-                className="hover:text-neutral-800 dark:hover:text-neutral-300 font-medium flex items-center space-x-2 align-middle relative py-1 px-2"
-              >
-                <span>{name}</span>
-              </Link>
-            )
-          })}
+    <aside className="bg-alabaster fixed top-0 z-20 h-16 w-full border-b border-zinc-300">
+      <nav className="flex h-full" id="nav">
+        <div className="size-16 border-r border-zinc-300" />
+        <div className="flex h-full flex-1 flex-row items-center justify-between px-4">
+          <Link href="/" className="font-display text-2xl tracking-wide">
+            JRAR.dev
+          </Link>
+          <div className="flex flex-row space-x-8">
+            {Object.entries(navItems).map(([path, { name }]) => {
+              return (
+                <Link
+                  key={path}
+                  href={path}
+                  className="relative flex items-center space-x-2 px-2 py-1 align-middle font-medium hover:text-neutral-800 dark:hover:text-neutral-300"
+                >
+                  <span>{name}</span>
+                </Link>
+              )
+            })}
+          </div>
         </div>
+        <div className="size-16 border-l border-zinc-300" />
       </nav>
     </aside>
   )

@@ -2,6 +2,7 @@
 title: "Hydrogen Storefront"
 description: "A Shopify Hydrogen project showcasing GSAP animations"
 projectLink: "https://hydrogen-demo-chi-olive.vercel.app/"
+technologies: ["React", "Remix", "GSAP", "Shopify"]
 ---
 
 I wanted to experiment with some fancy page transitions with Remix and while the new native view transitions API is really cool, Firefox (Safari at the time, too) is still holding out support so I needed a solution that would work cross-browser. Since Remix/Hydrogen doesn't make use of full page navigations I needed to transition the `<Outlet />` component with GSAP at the root of the app by listening to url pathname changes.
