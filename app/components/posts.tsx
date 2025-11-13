@@ -20,14 +20,14 @@ export function BlogPosts() {
             key={post.slug}
             href={`/blog/${post.slug}`}
             type="transition-to-detail"
-            className="flex group"
+            className="group flex"
           >
-            <div className="w-full grid grid-cols-1 md:grid-cols-[10rem_1fr] gap-2">
+            <div className="grid w-full grid-cols-1 gap-2 md:grid-cols-[10rem_1fr]">
               <SharedTransition
                 name={`blog-date-${post.slug}`}
                 share="animate-morph"
               >
-                <p className="text-neutral-600 dark:text-neutral-400 group-hover:text-neutral-500 transition-colors duration-300">
+                <p className="text-zinc-400 group-hover:text-zinc-500">
                   {formatDate(post.metadata.publishedAt, false)}
                 </p>
               </SharedTransition>
@@ -35,7 +35,7 @@ export function BlogPosts() {
                 name={`blog-title-${post.slug}`}
                 share="animate-morph"
               >
-                <p className="text-neutral-900 dark:text-neutral-100 group-hover:text-neutral-300 tracking-tight font-medium transition-colors duration-300">
+                <p className="font-medium tracking-tight text-zinc-500 group-hover:text-zinc-800">
                   {post.metadata.title}
                 </p>
               </SharedTransition>

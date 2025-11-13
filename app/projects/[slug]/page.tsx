@@ -60,7 +60,7 @@ export default async function Project({ params }) {
   }
 
   return (
-    <section className="pt-8">
+    <section className="pt-8 pb-16">
       <script
         type="application/ld+json"
         suppressHydrationWarning
@@ -87,7 +87,7 @@ export default async function Project({ params }) {
         <TransitionLink
           href="/"
           type="transition-to-list"
-          className="inline-flex items-center space-x-2 text-sm text-neutral-500 transition-colors hover:text-neutral-300"
+          className="inline-flex items-center space-x-2 text-sm text-zinc-500 transition-colors hover:text-zinc-300"
         >
           <ArrowLeftIcon />
           <span>Back</span>
@@ -109,7 +109,7 @@ export default async function Project({ params }) {
               href={project.metadata.projectLink}
               target="_blank"
               rel="noopener noreferrer"
-              className="rounded-lg ring-2 ring-transparent transition-[box-shadow] duration-100 hover:ring-neutral-400 dark:hover:ring-neutral-500"
+              className="rounded-lg ring-2 ring-transparent transition-[box-shadow] duration-100 hover:ring-zinc-400"
             >
               <Image
                 src={`/projects-assets/${project.image}`}
@@ -124,7 +124,7 @@ export default async function Project({ params }) {
         </div>
       )}
 
-      <article className="prose dark:prose-invert prose-neutral mx-auto">
+      <article className="prose prose-zinc mx-auto">
         <h1 className="title mb-8 text-2xl font-semibold tracking-tighter">
           {project.metadata.title}
         </h1>

@@ -5,10 +5,11 @@ import { VerticalCutReveal } from "./animations/vertical-cut-reveal"
 import { Pointer } from "./animations/pointer"
 import { motion } from "motion/react"
 import { ArrowDownIcon } from "@radix-ui/react-icons"
+import { GithubLogo, LinkedinLogo } from "./social-icons"
 
 export default function Hero() {
   return (
-    <div className="relative h-[calc(100dvh_-_4rem)] min-h-[40rem] sm:min-h-[56rem]">
+    <div className="relative flex h-[calc(100dvh_-_4rem)] min-h-[40rem] w-full flex-col sm:min-h-[48rem]">
       <div className="font-display -mb-[0.1em] flex w-full items-baseline justify-center gap-[0.1em] overflow-hidden pt-[0.1em] text-[20.5vw] leading-none whitespace-nowrap text-zinc-800 text-shadow-md/20 sm:px-4 sm:text-[calc((100vw_-_8rem)*_0.21)]">
         <VerticalCutReveal>Josh</VerticalCutReveal>
         <motion.div
@@ -78,68 +79,39 @@ export default function Hero() {
             </div>
           </div>
         </div>
-        <hr className="mt-6 border-zinc-300" />
+        <hr className="mx-16 mt-6 border-zinc-300" />
       </motion.div>
-      <div className="grid grid-cols-1 lg:grid-cols-5">
-        <VerticalCutReveal
-          splitBy="characters"
-          staggerDuration={0.002}
-          staggerFrom="random"
-          transition={{
-            type: "spring",
-            stiffness: 200,
-            damping: 35,
-            delay: 1,
-          }}
-          containerClassName="max-w-2xl text-base/8 sm:text-lg/9 text-zinc-800 py-16 px-6 lg:pt-40 lg:pl-20 col-span-1 lg:col-span-3"
-        >
-          I'm a product focused engineer specializing in design, UX, and React.
-          I create digital interfaces that prioritize usability, accessibility,
-          and performance. I pay attention to the details.
-        </VerticalCutReveal>
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.2, delay: 1.2 }}
-          className="col-span-1 flex flex-col items-center justify-end gap-3 lg:col-span-2"
-        >
-          <p>See my work</p>
-          <ArrowDownIcon className="size-4 animate-bounce" />
-        </motion.div>
+      <div className="flex grow items-center justify-center">
+        <div className="grid grid-cols-1 gap-y-16 lg:grid-cols-5 lg:gap-y-0">
+          <VerticalCutReveal
+            splitBy="characters"
+            staggerDuration={0.002}
+            staggerFrom="random"
+            transition={{
+              type: "spring",
+              stiffness: 200,
+              damping: 35,
+              delay: 1,
+            }}
+            containerClassName="max-w-2xl text-base/8 sm:text-lg/9 text-zinc-800 px-6 lg:pl-20 col-span-1 lg:col-span-3"
+          >
+            I'm a product focused engineer specializing in design, UX, and
+            implementation. I create digital products that prioritize usability,
+            accessibility, and performance. I sweat the details of user
+            interfaces.
+          </VerticalCutReveal>
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.2, delay: 1.2 }}
+            className="col-span-1 flex flex-col items-center justify-end gap-3 lg:col-span-2"
+          >
+            <p>See my work</p>
+            <ArrowDownIcon className="size-4 animate-bounce" />
+          </motion.div>
+        </div>
       </div>
     </div>
-  )
-}
-
-function GithubLogo() {
-  return (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      width={24}
-      height={24}
-      viewBox="0 0 24 24"
-    >
-      <path
-        fill="currentColor"
-        d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5c.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34c-.46-1.16-1.11-1.47-1.11-1.47c-.91-.62.07-.6.07-.6c1 .07 1.53 1.03 1.53 1.03c.87 1.52 2.34 1.07 2.91.83c.09-.65.35-1.09.63-1.34c-2.22-.25-4.55-1.11-4.55-4.92c0-1.11.38-2 1.03-2.71c-.1-.25-.45-1.29.1-2.64c0 0 .84-.27 2.75 1.02c.79-.22 1.65-.33 2.5-.33s1.71.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02c.55 1.35.2 2.39.1 2.64c.65.71 1.03 1.6 1.03 2.71c0 3.82-2.34 4.66-4.57 4.91c.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2"
-      ></path>
-    </svg>
-  )
-}
-
-function LinkedinLogo() {
-  return (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      width={24}
-      height={24}
-      viewBox="0 0 24 24"
-    >
-      <path
-        fill="currentColor"
-        d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2zm-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93zM6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37z"
-      ></path>
-    </svg>
   )
 }
 

@@ -6,6 +6,7 @@ import { Analytics } from "@vercel/analytics/react"
 import { SpeedInsights } from "@vercel/speed-insights/next"
 import Footer from "./components/footer"
 import { baseUrl } from "./sitemap"
+import { Marquee } from "./components/animations/marquee"
 
 const inter = Inter({
   subsets: ["latin"],
@@ -65,22 +66,18 @@ export default function RootLayout({
       className={cx(ptSerif.variable, bebasNeue.variable, "bg-alabaster")}
       suppressHydrationWarning
     >
-      <body className="antialiased w-full text-black flex">
-        <div className="border-r border-zinc-300 w-16 h-dvh hidden sm:flex items-center fixed left-0 top-0">
-          <div className="-rotate-90 -ml-8 whitespace-nowrap">
-            Built in Austin TX
-          </div>
-        </div>
-        <main className="flex flex-col items-center px-4 sm:px-16 w-full mt-16">
+      <body className="flex w-full antialiased">
+        <div className="fixed top-0 left-0 hidden h-dvh w-16 items-center border-r border-zinc-300 sm:flex" />
+        <main className="mt-16 flex w-full flex-col items-center px-4 sm:px-16">
           <Navbar />
-          <div className="flex-auto min-w-0 flex flex-col max-w-full">
+          <div className="flex max-w-full min-w-0 flex-auto flex-col">
             {children}
           </div>
           <Footer />
           <Analytics />
           <SpeedInsights />
         </main>
-        <div className="border-l border-zinc-300 w-16 h-dvh hidden sm:flex flex-col justify-between fixed right-0 top-0" />
+        <div className="fixed top-0 right-0 hidden h-dvh w-16 flex-col justify-between border-l border-zinc-300 sm:flex" />
       </body>
     </html>
   )
