@@ -230,6 +230,30 @@ export default function Resume() {
           </div>
         </div>
       </div>
+
+      {/* Courses */}
+      <div className="mb-16">
+        <h2 className="mb-8 border-b border-zinc-300 pb-3 text-2xl font-semibold tracking-tighter">
+          Relevant Courses
+        </h2>
+
+        <div className="flex flex-col items-start">
+          <div>
+            <h3 className="text-xl font-semibold">Epic React</h3>
+            <p className="text-zinc-600 italic">taught by Kent C. Dodds</p>
+          </div>
+          <p className="mt-4 text-zinc-700">
+            Epic React is a comprehensive React course with seven workshops and
+            243 lessons. It covers fundamentals, advanced APIs, hooks, suspense,
+            Server Components (RSC), advanced patterns, and performance.
+          </p>
+          <p className="mt-2 text-zinc-700">
+            The course is unique in its approach, often digging into underlying
+            React internals and concepts rather than just the surface-level
+            usage. It uses hands-on exercises to re-inforce concepts.
+          </p>
+        </div>
+      </div>
     </section>
   )
 }

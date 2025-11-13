@@ -1,9 +1,7 @@
 import Link from "next/link"
+import { TransitionLink } from "app/lib/transitions"
 
 const navItems = {
-  "/about": {
-    name: "About",
-  },
   "/resume": {
     name: "Resume",
   },
@@ -24,13 +22,14 @@ export function Navbar() {
           <div className="flex flex-row space-x-4 sm:space-x-8">
             {Object.entries(navItems).map(([path, { name }]) => {
               return (
-                <Link
+                <TransitionLink
                   key={path}
+                  type="default"
                   href={path}
                   className="relative flex items-center space-x-2 px-2 py-1 align-middle font-medium hover:text-zinc-800"
                 >
                   <span>{name}</span>
-                </Link>
+                </TransitionLink>
               )
             })}
           </div>
