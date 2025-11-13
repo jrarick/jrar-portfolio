@@ -65,7 +65,7 @@ export default async function Blog({ params }) {
   }
 
   return (
-    <section className="mx-auto">
+    <section className="mx-auto pt-8 pb-16">
       <script
         type="application/ld+json"
         suppressHydrationWarning
@@ -94,7 +94,7 @@ export default async function Blog({ params }) {
         <TransitionLink
           href="/blog"
           type="transition-to-list"
-          className="inline-flex items-center text-sm space-x-2 text-neutral-500 hover:text-neutral-300 transition-colors"
+          className="inline-flex items-center space-x-2 text-sm text-zinc-500 transition-colors hover:text-zinc-300"
         >
           <ArrowLeftIcon />
           <span>All blog posts</span>
@@ -102,18 +102,18 @@ export default async function Blog({ params }) {
       </div>
 
       <SharedTransition name={`blog-title-${post.slug}`} share="animate-morph">
-        <h1 className="title font-semibold text-2xl tracking-tighter">
+        <h1 className="title text-2xl font-semibold tracking-tighter">
           {post.metadata.title}
         </h1>
       </SharedTransition>
-      <div className="flex justify-between items-center mt-2 mb-8 text-sm">
+      <div className="mt-2 mb-8 flex items-center justify-between text-sm">
         <SharedTransition name={`blog-date-${post.slug}`} share="animate-morph">
-          <p className="text-sm text-neutral-600 dark:text-neutral-400">
+          <p className="text-sm text-zinc-600">
             {formatDate(post.metadata.publishedAt)}
           </p>
         </SharedTransition>
       </div>
-      <article className="prose dark:prose-invert prose-neutral">
+      <article className="prose prose-zinc">
         <CustomMDX source={post.content} />
       </article>
     </section>

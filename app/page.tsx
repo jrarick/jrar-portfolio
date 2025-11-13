@@ -1,36 +1,28 @@
 import { BlogPosts } from "app/components/posts"
-import { Projects } from "./components/projects"
 import { Tools } from "./components/tools"
+import Hero from "./components/hero"
+import ProjectsLoader from "./components/projects-loader"
 
 export default function Page() {
   return (
     <section>
-      <div className="mb-32 mt-16 max-w-xl mx-auto">
-        <h1 className="mb-2 text-2xl font-semibold tracking-tighter">
-          Hey, I'm Josh Rarick
-        </h1>
-        <p className="leading-8 tracking-tight">
-          I work across the full stack and specialize in frontend, design, and
-          UX. I sweat the details of user interfaces.
-        </p>
+      <Hero />
+      <hr className="mx-16 border-zinc-300" />
+      <div className="py-24">
+        <ProjectsLoader />
       </div>
-      <div className="my-24">
-        <h2 className="text-2xl font-semibold mb-6 tracking-tighter">
-          Things I've built
-        </h2>
-        <Projects />
-      </div>
-      <div className="my-24">
-        <h2 className="text-2xl font-semibold mb-6 tracking-tighter">
-          Tools I use
-        </h2>
+      <hr className="mx-16 border-zinc-300" />
+      <div className="py-24">
         <Tools />
       </div>
-      <div className="my-24 max-w-2xl mx-auto">
-        <h2 className="text-2xl font-semibold tracking-tighter border-b pb-5 mb-5 border-neutral-300 dark:border-neutral-700">
-          From the blog
-        </h2>
-        <BlogPosts />
+      <hr className="mx-16 border-zinc-300" />
+      <div className="py-24">
+        <div className="mx-auto max-w-2xl">
+          <h2 className="mb-5 border-b border-zinc-300 pb-5 text-2xl font-semibold tracking-tighter">
+            From the blog
+          </h2>
+          <BlogPosts />
+        </div>
       </div>
     </section>
   )

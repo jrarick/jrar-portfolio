@@ -1,21 +1,28 @@
 import "./global.css"
 import type { Metadata } from "next"
-import { JetBrains_Mono, Inter } from "next/font/google"
+import { Raleway, Inter, Bebas_Neue, PT_Serif } from "next/font/google"
 import { Navbar } from "./components/nav"
 import { Analytics } from "@vercel/analytics/react"
 import { SpeedInsights } from "@vercel/speed-insights/next"
 import Footer from "./components/footer"
 import { baseUrl } from "./sitemap"
-import { ThemeProvider } from "next-themes"
+import { Marquee } from "./components/animations/marquee"
 
 const inter = Inter({
   subsets: ["latin"],
   variable: "--font-outfit",
 })
 
-const jetbrainsMono = JetBrains_Mono({
+const bebasNeue = Bebas_Neue({
   subsets: ["latin"],
-  variable: "--font-jetbrains-mono",
+  weight: "400",
+  variable: "--font-bebas-neue",
+})
+
+const ptSerif = PT_Serif({
+  subsets: ["latin"],
+  weight: ["400", "700"],
+  variable: "--font-pt-serif",
 })
 
 export const metadata: Metadata = {
@@ -56,26 +63,21 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={cx(inter.className, jetbrainsMono.variable)}
+      className={cx(ptSerif.variable, bebasNeue.variable, "bg-alabaster")}
       suppressHydrationWarning
     >
-      <body>
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="system"
-          enableSystem
-          disableTransitionOnChange
-        >
-          <div className="antialiased w-full px-4 pt-8 text-black bg-neutral-50 dark:text-white dark:bg-neutral-900">
-            <main className="flex-auto min-w-0 mt-6 flex flex-col px-2 md:px-0 max-w-5xl mx-auto">
-              <Navbar />
-              {children}
-              <Footer />
-              <Analytics />
-              <SpeedInsights />
-            </main>
+      <body className="flex w-full antialiased">
+        <div className="fixed top-0 left-0 hidden h-dvh w-16 items-center border-r border-zinc-300 sm:flex" />
+        <main className="mt-16 flex w-full flex-col items-center px-4 sm:px-16">
+          <Navbar />
+          <div className="flex max-w-full min-w-0 flex-auto flex-col">
+            {children}
           </div>
-        </ThemeProvider>
+          <Footer />
+          <Analytics />
+          <SpeedInsights />
+        </main>
+        <div className="fixed top-0 right-0 hidden h-dvh w-16 flex-col justify-between border-l border-zinc-300 sm:flex" />
       </body>
     </html>
   )

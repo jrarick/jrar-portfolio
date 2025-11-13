@@ -1,73 +1,71 @@
+"use client"
+
 import Image from "next/image"
 import { getProjects } from "app/lib/utils"
 import { TransitionLink, SharedTransition } from "app/lib/transitions"
+import { motion } from "motion/react"
 
-const PROJECT_ORDER = [
-  "setpoint-data-suite",
-  "longhorn-design-studio",
-  "shadcn-portable-text-editor",
-  "hydrogen-demo",
-  "support-docs-site",
-  "party-rental-ecommerce-template",
-]
-
-export function Projects() {
-  const allProjects = getProjects()
-
-  const projects = allProjects.sort((a, b) => {
-    const aIndex = PROJECT_ORDER.indexOf(a.slug)
-    const bIndex = PROJECT_ORDER.indexOf(b.slug)
-
-    // If both have custom order, use that
-    if (aIndex !== -1 && bIndex !== -1) {
-      return aIndex - bIndex
-    }
-    // If only one has custom order, prioritize it
-    if (aIndex !== -1) return -1
-    if (bIndex !== -1) return 1
-
-    return 0
-  })
-
+export function Projects({
+  projects,
+}: {
+  projects: ReturnType<typeof getProjects>
+}) {
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+    <motion.div
+      className="mx-auto grid max-w-[100rem] grid-cols-1 gap-8 sm:px-8 md:grid-cols-2 lg:gap-16 lg:px-16 xl:grid-cols-3"
+      initial="hidden"
+      whileInView="visible"
+      viewport={{ once: true, margin: "-100px" }}
+      variants={{
+        visible: {
+          transition: {
+            staggerChildren: 0.05,
+          },
+        },
+      }}
+    >
       {projects.map((project) => (
-        <TransitionLink
+        <motion.article
           key={project.slug}
-          href={`/projects/${project.slug}`}
-          type="transition-to-detail"
-          className="block"
+          className="group relative p-3"
+          variants={{
+            hidden: { opacity: 0, y: 20 },
+            visible: { opacity: 1, y: 0 },
+          }}
         >
-          <article className="relative p-3 rounded-xl border border-neutral-200 dark:border-neutral-800 hover:bg-neutral-100 dark:hover:bg-neutral-800">
-            {project.image ? (
-              <SharedTransition
-                name={`project-${project.slug}`}
-                share={{
-                  default: "auto",
-                  "transition-to-detail": "animate-morph",
-                  "transition-to-list": "animate-morph",
-                }}
-              >
-                <Image
-                  className="aspect-video rounded-lg mb-2 transition-transform duration-300"
-                  src={`/projects-assets/${project.image}`}
-                  alt={project.metadata.title}
-                  width={500}
-                  height={500}
-                />
-              </SharedTransition>
-            ) : (
-              <div className="mb-2 bg-gradient-to-br from-neutral-600 to-neutral-800 aspect-video rounded-lg" />
-            )}
-            <h3 className="font-medium group-hover:text-white tracking-tight transition-colors duration-300">
-              {project.metadata.title}
-            </h3>
-            <p className="text-sm text-neutral-500 mt-2 group-hover:text-neutral-400 transition-colors duration-300">
-              {project.metadata.description}
-            </p>
-          </article>
-        </TransitionLink>
+          {project.image ? (
+            <SharedTransition
+              name={`project-${project.slug}`}
+              share={{
+                default: "auto",
+                "transition-to-detail": "animate-morph",
+                "transition-to-list": "animate-morph",
+              }}
+            >
+              <Image
+                className="mb-2 aspect-video rounded-lg group-hover:brightness-95 group-hover:grayscale-100"
+                src={`/projects-assets/${project.image}`}
+                alt={project.metadata.title}
+                width={500}
+                height={500}
+              />
+            </SharedTransition>
+          ) : (
+            <div className="mb-2 aspect-video rounded-lg bg-gradient-to-br from-zinc-600 to-zinc-800" />
+          )}
+          <TransitionLink
+            href={`/projects/${project.slug}`}
+            type="transition-to-detail"
+            className="font-medium tracking-tight group-hover:text-zinc-500"
+          >
+            {project.metadata.title}
+            <span className="absolute inset-0" />
+          </TransitionLink>
+          <p className="mt-2 text-sm text-zinc-500 group-hover:text-zinc-400">
+            {project.metadata.description}
+          </p>
+        </motion.article>
       ))}
-    </div>
+    </motion.div>
   )
 }
