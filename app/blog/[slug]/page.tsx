@@ -4,6 +4,7 @@ import { formatDate, getBlogPosts } from "app/lib/utils"
 import { baseUrl } from "app/sitemap"
 import { SharedTransition, TransitionLink } from "app/lib/transitions"
 import { ArrowLeftIcon } from "@radix-ui/react-icons"
+import { type Metadata } from "next"
 
 export async function generateStaticParams() {
   let posts = getBlogPosts()
@@ -13,12 +14,12 @@ export async function generateStaticParams() {
   }))
 }
 
-export async function generateMetadata({ params }) {
+export async function generateMetadata({ params }): Promise<Metadata> {
   const { slug } = await params
 
   let post = getBlogPosts().find((post) => post.slug === slug)
   if (!post) {
-    return
+    return {}
   }
 
   let {
@@ -65,7 +66,7 @@ export default async function Blog({ params }) {
   }
 
   return (
-    <section className="mx-auto pt-8 pb-16">
+    <section className="mx-auto w-fit">
       <script
         type="application/ld+json"
         suppressHydrationWarning
@@ -113,7 +114,7 @@ export default async function Blog({ params }) {
           </p>
         </SharedTransition>
       </div>
-      <article className="prose prose-zinc">
+      <article className="prose prose-zinc prose-sm">
         <CustomMDX source={post.content} />
       </article>
     </section>

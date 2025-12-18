@@ -2,221 +2,263 @@
 
 import Image from "next/image"
 import { useState } from "react"
-import { motion } from "motion/react"
+import { AnimatePresence, motion } from "motion/react"
+import { AnimatedBackground } from "app/components/animations/animated-background"
 
-interface Tool {
-  name: string
-  image: string
-  website: string
-  type: (typeof types)[number]
-}
-
-const types = [
+const kinds = [
+  "All",
   "Frameworks",
   "Languages",
   "Libraries",
   "Platforms",
   "Other",
-] as const
+]
+
+interface Tool {
+  name: string
+  image: string
+  website: string
+  kind: (typeof kinds)[number]
+}
 
 const tools: Tool[] = [
   {
     name: "Next.js",
     image: "nextjs-icon.svg",
     website: "https://nextjs.org",
-    type: "Frameworks",
+    kind: "Frameworks",
   },
   {
     name: "React",
     image: "react-icon.svg",
     website: "https://react.dev",
-    type: "Libraries",
+    kind: "Libraries",
   },
   {
     name: "Tailwind CSS",
     image: "tailwind-icon.svg",
     website: "https://tailwindcss.com",
-    type: "Libraries",
+    kind: "Libraries",
   },
   {
     name: "Remix",
     image: "remix-icon.svg",
     website: "https://remix.run",
-    type: "Frameworks",
+    kind: "Frameworks",
   },
   {
     name: "TypeScript",
     image: "typescript-icon.svg",
     website: "https://typescriptlang.org",
-    type: "Languages",
+    kind: "Languages",
   },
   {
     name: "Python",
     image: "python-icon.svg",
     website: "https://python.org",
-    type: "Languages",
+    kind: "Languages",
   },
   {
     name: "Node.js",
     image: "nodejs-icon.svg",
     website: "https://nodejs.org",
-    type: "Languages",
+    kind: "Languages",
   },
   {
     name: "Flask",
     image: "flask-icon.svg",
     website: "https://flask.palletsprojects.com",
-    type: "Frameworks",
+    kind: "Frameworks",
+  },
+  {
+    name: "React Native",
+    image: "react-icon.svg",
+    website: "https://reactnative.dev",
+    kind: "Libraries",
+  },
+  {
+    name: "Expo",
+    image: "expo-icon.svg",
+    website: "https://expo.dev",
+    kind: "Frameworks",
   },
   {
     name: "React Router",
     image: "react-router-icon.svg",
     website: "https://reactrouter.com",
-    type: "Libraries",
+    kind: "Libraries",
   },
   {
     name: "Sanity",
     image: "sanity-icon.svg",
     website: "https://sanity.io",
-    type: "Platforms",
+    kind: "Platforms",
   },
   {
     name: "Supabase",
     image: "supabase-icon.svg",
     website: "https://supabase.com",
-    type: "Platforms",
+    kind: "Platforms",
   },
   {
     name: "TanStack Query",
     image: "tanstack-icon.svg",
     website: "https://tanstack.com/query",
-    type: "Libraries",
+    kind: "Libraries",
   },
   {
     name: "Vite",
     image: "vite-icon.svg",
     website: "https://vitejs.dev",
-    type: "Other",
+    kind: "Other",
   },
   {
     name: "Motion",
     image: "motion-icon.svg",
     website: "https://motion.dev/",
-    type: "Libraries",
+    kind: "Libraries",
   },
   {
     name: "GSAP",
     image: "gsap-icon.svg",
     website: "https://gsap.com/",
-    type: "Libraries",
+    kind: "Libraries",
   },
   {
     name: "Three.js",
     image: "threejs-icon.svg",
     website: "https://threejs.org",
-    type: "Libraries",
+    kind: "Libraries",
   },
   {
     name: "D3.js",
     image: "d3-icon.svg",
     website: "https://d3js.org",
-    type: "Libraries",
+    kind: "Libraries",
   },
   {
     name: "Figma",
     image: "figma-icon.svg",
     website: "https://figma.com",
-    type: "Other",
+    kind: "Other",
   },
   {
     name: "PostgreSQL",
     image: "postgres-icon.svg",
     website: "https://postgresql.org",
-    type: "Languages",
+    kind: "Languages",
   },
   {
     name: "Prisma",
     image: "prisma-icon.svg",
     website: "https://prisma.io",
-    type: "Libraries",
+    kind: "Libraries",
   },
   {
     name: "Radix UI",
     image: "radix-icon.svg",
     website: "https://radix-ui.com",
-    type: "Libraries",
+    kind: "Libraries",
   },
   {
     name: "React Aria",
     image: "react-aria-icon.svg",
     website: "https://react-spectrum.adobe.com/react-aria/index.html",
-    type: "Libraries",
+    kind: "Libraries",
   },
   {
     name: "Playwright",
     image: "playwright-icon.svg",
     website: "https://playwright.dev",
-    type: "Other",
+    kind: "Other",
   },
   {
     name: "Vitest",
     image: "vitest-icon.svg",
     website: "https://vitest.dev",
-    type: "Other",
+    kind: "Other",
   },
 ]
 
 export function Tools() {
-  const [selectedType, setSelectedType] =
-    useState<(typeof types)[number]>("Frameworks")
+  const [selectedKind, setSelectedKind] = useState<string>("All")
+
+  const filteredTools =
+    selectedKind === "All"
+      ? tools
+      : tools.filter((tool) => tool.kind === selectedKind)
+
+  console.log(selectedKind)
 
   return (
-    <section className="px-4">
-      <h2 className="mb-8 text-center text-2xl font-semibold tracking-tighter">
-        The Tools I Use
+    <div className="@container/tools mx-auto flex flex-col items-center space-y-8">
+      <h2 className="w-fit text-2xl font-semibold tracking-tighter">
+        Tools I'm using these days
       </h2>
-      <motion.div
-        className="mx-auto grid max-w-7xl grid-cols-3 divide-x divide-y divide-zinc-300 border-t border-l border-zinc-300 sm:grid-cols-5 md:grid-cols-6 [&>a:last-child]:border-r [&>a:last-child]:border-b [&>a:last-child]:border-zinc-300"
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true, margin: "-100px" }}
-        variants={{
-          visible: {
-            transition: {
-              staggerChildren: 0.03,
-            },
-          },
-        }}
-      >
-        {tools.map((tool) => {
-          return (
-            <motion.a
+      <div className="flex w-fit flex-col rounded-xl border border-zinc-300 p-1 @lg/tools:flex-row">
+        <AnimatedBackground
+          defaultValue={kinds[0]}
+          className="flex flex-col rounded-lg bg-zinc-200"
+          transition={{
+            ease: "easeInOut",
+            duration: 0.2,
+          }}
+          onValueChange={(newActiveId) => {
+            setSelectedKind(newActiveId ?? "All")
+          }}
+        >
+          {kinds.map((kind, index) => {
+            return (
+              <button
+                key={index}
+                data-id={kind}
+                type="button"
+                aria-label={`${kind} view`}
+                onClick={() => setSelectedKind(kind)}
+                className="inline-flex w-22 cursor-pointer items-center justify-center rounded-lg py-2 text-center text-xs font-medium tracking-tight text-zinc-800 transition-transform focus-visible:ring-2 focus-visible:ring-zinc-500 focus-visible:outline-none active:scale-[0.95]"
+              >
+                {kind}
+              </button>
+            )
+          })}
+        </AnimatedBackground>
+      </div>
+      <ul className="grid grid-cols-[12rem] @sm/tools:grid-cols-[12rem_12rem] @xl/tools:grid-cols-[12rem_12rem_12rem]">
+        <AnimatePresence mode="popLayout">
+          {filteredTools.map((tool) => (
+            <motion.li
               key={tool.name}
-              variants={{
-                hidden: { opacity: 0, y: 20 },
-                visible: { opacity: 1, y: 0 },
+              initial={{ opacity: 0, filter: "blur(2px)" }}
+              animate={{
+                opacity: 1,
+                filter: "blur(0)",
               }}
-              href={tool.website}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="group flex flex-col items-center py-4 sm:py-6 md:py-8"
+              exit={{
+                opacity: 0,
+                filter: "blur(2px)",
+              }}
+              transition={{ duration: 0.2 }}
+              layout
             >
-              <div className="mb-2 flex size-6 items-center justify-center sm:size-8 md:size-12">
+              <a
+                href={tool.website}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex origin-left items-center gap-2 rounded-lg px-4 py-3 hover:bg-zinc-200"
+              >
                 <Image
                   src={`/tool-logos/${tool.image}`}
                   alt={`${tool.name} logo`}
-                  width={36}
-                  height={36}
-                  className="aspect-square object-contain brightness-90 grayscale-100 group-hover:brightness-100 group-hover:grayscale-0"
+                  width={16}
+                  height={16}
+                  className="aspect-square object-contain"
                 />
-              </div>
-              <span className="text-center text-xs text-zinc-500">
-                {tool.name}
-              </span>
-            </motion.a>
-          )
-        })}
-      </motion.div>
-    </section>
+                <span className="text-xs">{tool.name}</span>
+              </a>
+            </motion.li>
+          ))}
+        </AnimatePresence>
+      </ul>
+    </div>
   )
 }

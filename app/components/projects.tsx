@@ -11,27 +11,21 @@ export function Projects({
   projects: ReturnType<typeof getProjects>
 }) {
   return (
-    <motion.div
-      className="mx-auto grid max-w-[100rem] grid-cols-1 gap-8 sm:px-8 md:grid-cols-2 lg:gap-16 lg:px-16 xl:grid-cols-3"
-      initial="hidden"
-      whileInView="visible"
-      viewport={{ once: true, margin: "-100px" }}
-      variants={{
-        visible: {
-          transition: {
-            staggerChildren: 0.05,
-          },
-        },
-      }}
-    >
+    <motion.div className="mx-auto max-w-fit space-y-8">
+      <div className="px-6">
+        <h2 className="text-2xl font-semibold tracking-tighter">
+          Highlighted Work
+        </h2>
+        <p className="mt-2 max-w-lg text-xs/5 text-zinc-600 sm:text-sm/6">
+          I've had the opportunity to work on a diverse range of projects
+          including in e-commerce, fintech, content engineering, and web design.
+          Here's a collection of some highlighted work that I'm able to share.
+        </p>
+      </div>
       {projects.map((project) => (
-        <motion.article
+        <article
           key={project.slug}
-          className="group relative p-3"
-          variants={{
-            hidden: { opacity: 0, y: 20 },
-            visible: { opacity: 1, y: 0 },
-          }}
+          className="relative rounded-lg p-6 hover:bg-zinc-200"
         >
           {project.image ? (
             <SharedTransition
@@ -43,7 +37,7 @@ export function Projects({
               }}
             >
               <Image
-                className="mb-2 aspect-video rounded-lg group-hover:brightness-95 group-hover:grayscale-100"
+                className="mb-2 aspect-video rounded-lg shadow-md"
                 src={`/projects-assets/${project.image}`}
                 alt={project.metadata.title}
                 width={500}
@@ -56,15 +50,15 @@ export function Projects({
           <TransitionLink
             href={`/projects/${project.slug}`}
             type="transition-to-detail"
-            className="font-medium tracking-tight group-hover:text-zinc-500"
+            className="font-medium tracking-tight"
           >
             {project.metadata.title}
             <span className="absolute inset-0" />
           </TransitionLink>
-          <p className="mt-2 text-sm text-zinc-500 group-hover:text-zinc-400">
+          <p className="mt-2 text-sm text-zinc-500">
             {project.metadata.description}
           </p>
-        </motion.article>
+        </article>
       ))}
     </motion.div>
   )

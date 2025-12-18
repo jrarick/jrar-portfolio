@@ -1,14 +1,15 @@
 import { BlogPosts } from "app/components/posts"
+import { type Metadata } from "next"
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Blog",
   description: "Read my blog.",
 }
 
 export default function Page() {
   return (
-    <section className="max-w-2xl mx-auto my-16">
-      <h1 className="font-semibold text-2xl mb-8 tracking-tighter">
+    <section className="mx-auto w-fit">
+      <h1 className="mb-8 text-2xl font-semibold tracking-tighter">
         From the blog
       </h1>
       <BlogPosts />

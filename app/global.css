@@ -43,7 +43,7 @@
 
 html {
   min-width: 360px;
-  font-family: var(--font-pt-serif);
+  font-family: var(--font-inter);
 }
 
 pre::-webkit-scrollbar {

@@ -1,0 +1,400 @@
+{
+  "bookmarks": [
+    {
+      "url": "https://motion-primitives.com/",
+      "add_date": "1720453974",
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA8klEQVR4nKTRu84BQRjG8WH3OxTfKd8FqBQKlUSh1aqp3IHCXahULsFFiEvQSSSi0KiIEApRSLD+E+/Ka+K8b/KL2J0888ysbyKOd+V5zEQM0BMXDwd8IQEfWxGosEAvdqt+ooY/eWc3WKCHNsbubjGnqt31Ayu84Qdp5JDBEHUsrzW4Ne8ooIOJG2B3L5rj2ecYoC9N9NrATfVV+i9m+EdZfqeyY0uFhZd71uDS2PNnkUdSGjUxMk6tcDypGFbdq3e2Xckc76CLhpGLvHeJcVmzk//2y1SQQhWbZ76Cp4K+sbYtnwnQrU7HeyXgbHwTcQ4AAAD//4+eL04AAAAGSURBVAMARXcpJURU9hgAAAAASUVORK5CYII=",
+      "title": "Motion-Primitives"
+    },
+    {
+      "url": "https://utopia.fyi/",
+      "add_date": "1724795352",
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAACCklEQVR4nIxSS0hUURg+zzujaNI4TSqDRRRFChIUFLRoUasWbaJoU7YLW7QKA7dRuOuBm4jCRVDUJmgRrWpRGKj41sFxZHScGcdh9Do+79Pv3jNcUBQ83Hv4/3u/8//f951f3H/SRQgxLWsuk8NO9ltSiOZ4I3bEDC+l5DBLwRiqmqbNGRNCUEpd16X+MkzTsm3GmOsS7Jxz5ACLdCZbU13d8eBuvOn4+sYmYCFNm0rOdnW/aWs519nxEOhwSCuWVnp6P5fX1nnj6dZtw5zP5lvPnrl25dKp5nh2cenl2/epuQWANCna79xayBU+fvmeLxRtx/E0gMbYVPJf/5DiOjAy0Tc4io/6avnrj1+ZXP5PX//wRMIBOUKEAqEvSAf6GKO+SkgihmGBKgDqlwhAYB8cDozzY6KX18Bj7wHDqHSAaAUHBBpgYGlZR79KieDAsr7qOA6Chli9lAIakNYdqYWhuUKR0t0HkE8mZ2EL4ottLdevXq4Kh+pqa27fvFFa0VPpeaVql+jxxMy7T9+ePmqP1Ud6Xz+fnE6BW0Ms+uzFKxSKRo4qJD95/gLnXh9U+j84mkilLW+iqOAccXfPh5+//4akPBaNaJqEHnrvcaeyCFcOZ8EbQ1YVDsP1za0t23bQHNJPxJsgzKMk/RFChAKBMjW2mpREeimgeJDCCaFuuuLiQUv992E7AAAA///b3KJDAAAABklEQVQDAPtP7+WVRcnhAAAAAElFTkSuQmCC",
+      "title": "Fluid Responsive Design | Utopia"
+    },
+    {
+      "url": "https://rive.app/",
+      "add_date": "1728491645",
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAB30lEQVQ4jZVSsaoTURScc+9NNsJLY2NnmTIsRMQPEAv7G0SwEEII6UREC8W1slALsYnZl/xAFAQVi9cExObJxtLCSuVFYcEgCtns3nuOhVED7yXEgSlnzpwzh9rt9lVjzH3nHIgI6yAic631axF51Ov1XgAgAKKY+QcRfQJwICLTJb8sORWRKYADIvKlUumcUup5p9O5BUCwdIG19thisTBBEMhR09M0Ra1WOw7gMhHdNMaYPM/Px3H8an3mNWi1Wner1er1+Xz+tNfrWb2t0Fqrm80mzWazb0TU9t4DQKw2aGiVaZpSFEUwxjAA0PLimwxklePx2AFgpdSlcrkMInqfJElhjlJ2u90d7/1J771orQm/azxBRBeIqJ3nOZxzjwHgkIG1VovIXqlUOgNA6N9ziNaaROR7URS3d3d39wDQoRVGoxErpd4w8zsA+0smzJwTkWPmG3EcP7TWagCyqUa93F8B8J1O50EQBFeyLNsviuLscDj8CUDWHZEAeAAMwAEQZr6TZdmHSqVy2hhz7Y/5tn+gkiTJGo3GZyJqEtGpMAxfTiaTr5tqXAUDUP1+/5lz7kkQBDtKqXv/k+AvwjB8y8wXy+VyvV6vT7dNAAASRZEaDAYfvfeRUmrBzOoX4Q/iGpXyUBUAAAAASUVORK5CYII=",
+      "title": "Rive - Build interactive motion graphics that run anywhere"
+    },
+    {
+      "url": "https://github.com/camoverride/lit",
+      "add_date": "1728760452",
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABtklEQVR4nIyTwStEURSH73szZCiFopTFlM00CzYayp9gpxTFQtkQZcfeghQLC81kFvakLEjZDCuJsLCYwoxig5JixpiZ5zszZ+r2snDq6517z/ndd96557kG8zzPMWr4A5CEe/iCnPpbEDM+s4V1PJZhGhpq2768HGzAouM45UoAoctTxDswZP5nuzAKJVdPWlHxMYxBCj4hCxn1TzV2CMOwJFqpoF8FAYizOcNeEL8D3vSNrfBKrEBsHX8WvmFQEqegXhOLJMhBJZKfrJKfpdEaK+rLGmFSNtM43ZCHXoRp7YuH72mDK02UNRbGvYEmuJbETu3yCzxoYrkmrgmt9aNUpH7YVbGnJ4bsmfCbxuSKm1UXcLXTYm0Q0zKDvuGSzaBWIU1v15dmXb0eo1cl0xYhsfjHJ0iDo6Y6SEYrOJED4rpIwgXckrgHPVYFUdjGPYMIyOwUICFlXRLcZDEHfXAntwEf1ufLDU2oL+McgjW0V/YoH0EXLECG4LlVgTQuY6rDJbYPI/Dj+JISMK5bLRzyrjHpuvglzZmXqZRYsNZlrFKm/Lam+l/krU+QsV2FA/JSlsb7BQAA//8fGtSHAAAABklEQVQDAIsg4TDVy+61AAAAAElFTkSuQmCC",
+      "title": "camoverride/lit: Literature for the self-taught AI practitioner! 📚"
+    },
+    {
+      "url": "https://www.frostin.dev/",
+      "add_date": "1728852829",
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAAjElEQVR4nNSRvQkEIRSE/UOwAHNTG7AqKzCxF7uxCMHA3ERQMPC87A49boVN9qXDN2+YIeDwCDg8/NOJvL3GGJcApRSl1FrbWosxfkpoC2itQwjGGITQ/w+MMecchNB7n1LqvX9FXYFa64zOOS+lrOpxS48BZpsY7yfa7CClzDkLIWazqwrBLZHuBF4AAAD//+buCdkAAAAGSURBVAMAxkUm+3qkPS8AAAAASUVORK5CYII=",
+      "title": "frostin.dev"
+    },
+    {
+      "url": "https://number-flow.barvian.me/",
+      "add_date": "1729017862",
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACk0lEQVQ4jV1TS4tdRRD+qs+j6pwbMsxMwHCHgAqKaMjGuBCJJItZBvEvKDL+A0VczE4D/oCZ4AuyD9lnkWgWunDnypBt7mIQkpF5nKo+XeXi3LkJaSi6Fv29ursIAIAggAIA3r2Xr3XFPxMrN9oTm4sF+jEtRPGws/LTj99sPHoZQ1iu+f6i37x04VY7+I6MqeGjE/BQXCwgGWnmDB5K7rXaO/z3n69v3756AgCE3Uh4H3KZ8r2ubrabg8MiFoUtKskBGZzYIkTd2TxtVBtVdXx0//mzp5/+cOfKacIu+eUqf983zXZz8GyQDLB5/QLsEHPijCRGGJ8f6Hnvty9Vr30HkNM7d//7cEbN73xsYHUSdRILiCFYC4lRsI4kBrA5OkOwepwrbdCAj+uZVztdVHUzlNxZJLaAaIAtJiJ1YgPYEGJBrEFs7rOCJmX7shaj662ehmRMYEOwLV1orFRbcxINiEWwIVU6hGTcqPlEt8QixJzal5R5WZP1AKuDDRALtOpUq6POMa/ZfHXgLKdYgDUgL3qayAKtLqOZQ3Ig9WO1kJGILWIqfwW83FekU4zeEs5Z8zSJxoNZaUk0XMxJFJCVq7Mojk4DnSFEA6zFz+eWWvWHqdG0x1oyZxBrRDc5WV2grIgcrRaSHCEGajSPtcZ++vXbtT/51Pc3qvW61XE8A4v59IRntpcOWi15a1yvW429K0/e+qMCdtNHb8x/k4o/2KS1t9PxUYihsGH5CwExD7YoYpG2xvV2HI7u65PjLy7iYlkN0+7Nv/rNC6/fYh13ZoqGhlO06j4pR1rLjEZz7nO1f/j476+u4uZymF4Z518+WVwT98+7Ia43qnNRxyzXC8n0oNH4+b3Hbz4CgEAQgeJ/IdjXcwMVFwsAAAAASUVORK5CYII=",
+      "title": "NumberFlow - Transition and format numbers"
+    },
+    {
+      "url": "https://pavellaptev.medium.com/squircles-on-the-web-houdini-to-the-rescue-5ef11f646b72",
+      "add_date": "1729119681",
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACN0lEQVR4nJxTy2piQRA9fU1C3iQESSBmJeiMOBtREBRRwZ3gxsXg2pWL+Qa3foO4EUQkPkBBEFyoGxVXLsUP8IUPUBB09E5Xe29yk+UUHPtaXV116nS1BEDPkeXYcRw1kL9Bu7dTzuh1/CfF8ZuDSZIkQCbLdObTyKfT6WgB32Pc9YvjjT7+0r4SJynVoPGppvUfVR9TKfLKcDqdeH5+ZqPRCJ1OR61MFWE2m2G1WjEej+V2u43j8ShYScphxh3MbrezYrGIarWK19fXj9KcOtLpNPL5PChGYUFtypKW4nA4BOHx8RGRSOTk5NVtNhsOh4OoOplMaJVvb2/hcrlEz6pgjIJSqZQIjEajuLi4wPn5OSwWCxqNhmhnt9vBYDCwcrmMl5cX0YLYILu7u0OtVkO324XJZILX64XRaMRsNgPpoiZIJBIicalUgrYF4VwsFkgmk+J/LBZDIBBAq9XC5eWl8On1evh8PkynU/j9/q8JiPrNzY0QiwJCoRCenp6w2WxwfX0t9Dg7O8PV1RW22y3q9frp3hUNZKJHAev1GoVCQSTNZrNi3e/3IsF8Pkev15PD4TCCwaCs1YBxcUgYcSCXyyGTyWAwGIBmhJjQen9/j3g8ThOLSqXCPgaJkng8HqxWK9bv9wUTEnW5XIr+3W43Hh4eSFC52WzC4XCQBuy/RpnbUW2bHtNPnB6GGGd1yrTXKzJ/PjShGf+W+K29U4IWxxvHj2+T+YWBfDIolQ98feeD9+cfAAAA//82EFciAAAABklEQVQDAB4kAi1OCZsJAAAAAElFTkSuQmCC",
+      "title": "Squircles on the Web — Houdini to the rescue 🚑 🚀 | by Pavel Laptev | Medium"
+    },
+    {
+      "url": "https://www.colorsandfonts.com/",
+      "add_date": "1730136827",
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAABx0lEQVQ4jVWSS24TURREq+q+btsJyo+QEAEjlsAy2CJbQyKISBEJkI/Ttrvfu8XAJsC0fpM6/PDpIwAAtgGSAEBwp/2xdgZQ8L+UznQau4YoUSSfAwUAvFtu2RZlfjw72OsWNdvkerd+eJqGUDx3CgDDMKrrxd752xfnAEWu22ZR5ueL0+/D7bflNSmBAIptkZs2vT9893J+MuZIkJSBdRtbtov9sz76z3eXil2YU7bj2eHR7DAUMJqzY2z3gqrOo9nByeKoZiMpGLZf778KaqirPvpeXSJrtpm6olKzAjhbnMKGoXT20fXqmlMgibGNaXcqQ12LFJh2H2VW+nQWw8EQlTbJmk1SMChkyymrASMFiTIsUdW1uRZFy+zUNafhTRsBFpVECmzOtAmK5Nimp2lomZ3KUFeFsb2yU9SshQpqOQ3ruhYl24VxPdyGZJgAQYKh0mzbLZPk7eqHGKZFUtIwrb4+XIWijz4UiRzbRmBR2esWlw9Xj9NTSPT2abuL7mb9a3R9s38+L7NZ9EUlncO0+jLc/FzfF5W/aOyoUtxvHh83y/1uMS9z22Mbl3WVbkX/xP5hG0UBYDkNj9OwpTUUYtm628JvelokO48Z+LQAAAAASUVORK5CYII=",
+      "title": "Home - Colors & Fonts"
+    },
+    {
+      "url": "https://lateral.design/",
+      "add_date": "1730578416",
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAABsklEQVQ4jXWSu24TURCG/5mzZ429dk2UrEIUx6CkQoRoLYSo8ihU8Az0IBCvAzQ0UBAaxBtESAEKYjnxOo53vfNTnPUREjDFaDQXzeUbKYqCpIjg/xISglaSwRU1wH9mBzsBICIAQyDGooTmcQQVERIgRKWuq7quYtt1wV8jiRCK5aLa29vZ2tosy1I1+EGCQMwmqSJCQMUtqyrPN1++eraxcbOuGlUhIQIQIONRFIAAIJzTy8vy9mj08NHR/GquqgKGKEXIdhNdTwqSiXdAuqob7xNVVXXBL4TIH1ciYLbKsuzzyde3794kXs9/TQA0zarb7XrvaRY6AHB5ngsEgJkNBoM0cb3ejeFwd7i7vb8/mkym0+lF2ulEuC7Pc4BOtZxfjcd3n794/fHD+/H48MnTx8fHDw7v3zv59GU2mznn2tmLoghom8b6WffWzvbp6beynB8c3Fmt6v4g+/nj/Ozsu/c+LN0WhCtbY9fLqtNJ1elicS0QM/Pep6mPHJOInxSXuEHaMyOAfpYBFIjRzBA4iEgoCAsRELPAFjQDwIBCEH+s7UAKW0oBVWuuP9bic/0GzuztJiCedjsAAAAASUVORK5CYII=",
+      "title": "Lateral Design | Western Design Inspo"
+    },
+    {
+      "url": "https://www.flickr.com/photos/britishlibrary/albums/",
+      "add_date": "1731454164",
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA/0lEQVQ4jcWTsUrDUBSGv8amphSp6Kg0QkFxcOmUzaEPoO66+Qw+gK+SB9DOpUumTHZwEAfBQlelIiFNKvfvYEgNIkgi+E/3cM73w/3vuUjqSBpKSvR7JRnTITuU1bAmKQEalFNak6SSMABWFRig/rWYxYbBOMKxLc56LRprWSM1cPMI8w842YfN9e8Gr5Ghdz1l8rIAwOs6BFc72MbAsQ/h9HPQbcPdJWw5xSv44XsOA4RPc0YPMYyeVzDA5A38+7/LIDc49zZwt+284XUd+odN6O+Bt7si3DZcHOVl4RlnseF2HNH8KcR4AacHhRD/fw8sIK3ApxYQVDAIqPqdlzqjCZgc0c5cAAAAAElFTkSuQmCC",
+      "title": "British Library’s albums | Flickr"
+    },
+    {
+      "url": "https://gl-transitions.com/",
+      "add_date": "1733355481",
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAB5ElEQVQ4jZVSTWsTYRB+Zt59d5eSj93mWC+l+AGCwTQUijf/gBfxViuCJvgL6g/wD3go4sFrPRQsfpy9eOwtNIYWlapJqiGm3TTJJrt5x0O2sVYoOIdhZnieGZjnId/38T9hici5AALkJAOARUTnEuQU5+8LRKSUAmCMASAigChmgQBMQDwWQKwpOoqiTqcDQGs9ycS6dzwAEQSAZDI2M1E2m2XmMAxnc7lH5fLchbmXGxvpTHp379Pg8GvpzuXgaOQ6KozGzza/9MMxM3Mcx6lU+u2b1wsL85XKjjFxuVReKhZ6vf6vw+j+7fnFq95REFkWCcRi5m63u7Jy18ThvdXVi5eutFo/ojhijOut8MnzSiHvv3vfeLFZ8/2MpSj5Ui6XazQanuetrz/9eXAQDgbhcASAFbm2yqa0slzFiGIo13VFpN1uP15bq9WqlereUvG6pW2C6fcDIvfWTW+/3v+w3ZqZ0SJQjuNorev1evVj7cHDUnGxsPVqq9ls5PPXbiwvM3Pz+87nb8Pd/WPbZhGQ53kiopQKgoCIHMceDkdKKWPGBFLaEmMRw9YMICFMpGCejISJBAARRESEAIGIgIhE5I81ppKbSXHSSiIsRISIzppvsiaBJEsS5529cJrzT0nT/jfeVeVhHemLVwAAAABJRU5ErkJggg==",
+      "title": "GL Transitions"
+    },
+    {
+      "url": "https://www.za-zu.com/blog/playbook",
+      "add_date": "1733930313",
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAABYklEQVQ4jb1SMS9DURg95773mlRSRdBWGpOgUoOVgdgIFrt09RNsEmIXs8XKJEYiaQQRiUgH0qJDQ6ggGk3z3u17n0Hbp4lFJO52br6Tc75zPgYX3/Gbp341/UcChQAbCHVA/xOA2ZiOt2MmCQBCnt56V48ynTRiYZ7kq5cFQthEIFCxcfPMaKs7mTATUePD4VFW54pqfsRUqF4UIEKfIEBnCAujfCqZ2+fVdFY2U8FERATsaVMT/cbOhbO+LwB9BctAQKG3g6kxazDq5p7dlV2tPTWVRNlmOlfbyVewq8i/KBKAZO6lu9XzBCIsllDRNT9+SgQf3mTr2M4UdCQk4wNqetgylJCS6GFfl/wQ62CMy3NGvB0bB/banv5wvBbTC5puwPDKjh9s3ZLIaxllbQ3FMRQPnN25q7t6aTYYCauTG/fw2m00xO+3RNalhQJ87QNQfEeN4mo6bIZAU8v4l+P7BN7kjFKnwu0hAAAAAElFTkSuQmCC",
+      "title": "The Cold Email Handbook | za-zu"
+    },
+    {
+      "url": "https://www.fancycomponents.dev/",
+      "add_date": "1735093122",
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA10lEQVR4nMTTTwsBQRjH8WX3zItwlRM3F0cReRFueAEOysldXoXionBAbpKbXKUoIqUcnPz7Tj1b2nbNYZOpT7M7PfOb2afWMnwOy/A5fh6QlnngVRB0WQujCBMVlOVZrYWcxaZLQBJtXHHADnE0McJGd4OxXD2PMy7IydrEWRxwvKfkpIVoybr6jIQoYWpvcDbxiLls3uMmh2zxEKdvN7BDqyigLjU1dNHAXReQRU8CVENfmKGDDPq6ANXYKJYYSoBqYAwrPHUBnyMi89qrQBegHf//md4AAAD//5D9VPsAAAAGSURBVAMAhSkpmg/ltbkAAAAASUVORK5CYII=",
+      "title": "Fancy Components"
+    },
+    {
+      "url": "https://github.com/EbookFoundation/free-programming-books",
+      "add_date": "1735529261",
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABtklEQVR4nIyTwStEURSH73szZCiFopTFlM00CzYayp9gpxTFQtkQZcfeghQLC81kFvakLEjZDCuJsLCYwoxig5JixpiZ5zszZ+r2snDq6517z/ndd96557kG8zzPMWr4A5CEe/iCnPpbEDM+s4V1PJZhGhpq2768HGzAouM45UoAoctTxDswZP5nuzAKJVdPWlHxMYxBCj4hCxn1TzV2CMOwJFqpoF8FAYizOcNeEL8D3vSNrfBKrEBsHX8WvmFQEqegXhOLJMhBJZKfrJKfpdEaK+rLGmFSNtM43ZCHXoRp7YuH72mDK02UNRbGvYEmuJbETu3yCzxoYrkmrgmt9aNUpH7YVbGnJ4bsmfCbxuSKm1UXcLXTYm0Q0zKDvuGSzaBWIU1v15dmXb0eo1cl0xYhsfjHJ0iDo6Y6SEYrOJED4rpIwgXckrgHPVYFUdjGPYMIyOwUICFlXRLcZDEHfXAntwEf1ufLDU2oL+McgjW0V/YoH0EXLECG4LlVgTQuY6rDJbYPI/Dj+JISMK5bLRzyrjHpuvglzZmXqZRYsNZlrFKm/Lam+l/krU+QsV2FA/JSlsb7BQAA//8fGtSHAAAABklEQVQDAIsg4TDVy+61AAAAAElFTkSuQmCC",
+      "title": "EbookFoundation/free-programming-books: :books: Freely available programming books"
+    },
+    {
+      "url": "https://github.com/kepano/flexoki",
+      "add_date": "1736472858",
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABtklEQVR4nIyTwStEURSH73szZCiFopTFlM00CzYayp9gpxTFQtkQZcfeghQLC81kFvakLEjZDCuJsLCYwoxig5JixpiZ5zszZ+r2snDq6517z/ndd96557kG8zzPMWr4A5CEe/iCnPpbEDM+s4V1PJZhGhpq2768HGzAouM45UoAoctTxDswZP5nuzAKJVdPWlHxMYxBCj4hCxn1TzV2CMOwJFqpoF8FAYizOcNeEL8D3vSNrfBKrEBsHX8WvmFQEqegXhOLJMhBJZKfrJKfpdEaK+rLGmFSNtM43ZCHXoRp7YuH72mDK02UNRbGvYEmuJbETu3yCzxoYrkmrgmt9aNUpH7YVbGnJ4bsmfCbxuSKm1UXcLXTYm0Q0zKDvuGSzaBWIU1v15dmXb0eo1cl0xYhsfjHJ0iDo6Y6SEYrOJED4rpIwgXckrgHPVYFUdjGPYMIyOwUICFlXRLcZDEHfXAntwEf1ufLDU2oL+McgjW0V/YoH0EXLECG4LlVgTQuY6rDJbYPI/Dj+JISMK5bLRzyrjHpuvglzZmXqZRYsNZlrFKm/Lam+l/krU+QsV2FA/JSlsb7BQAA//8fGtSHAAAABklEQVQDAIsg4TDVy+61AAAAAElFTkSuQmCC",
+      "title": "kepano/flexoki: An inky color scheme for prose and code."
+    },
+    {
+      "url": "https://svgl.app/",
+      "add_date": "1736732145",
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACSUlEQVR4nFxTzW7TQBCe8U9+7NgiqKegFIqaSu0hHIIiNQWhcuQpeAzegKfgKahoxYEcQsUDcOGAeiMHUBoLRymxHS/fjL0iYqXJzq7nm/3mm4lHWN1ud+h53lvXdU8dx7kHI/iEneX7drs1ZVnKTsaYBPuXoijeLJfLrxwEwVPYJQB7zCwgA58liZxlAUR1AknEcob/c71ev3KjKHqHwCHicqdajCAjr0nwDlAZmWrlsBjnBx6AE1gJE59BzSApt1stMlQt8OD13R2laarscOXXmIknmYQSPpg8z02v1+PB4SHlWUaooyoBr0Mj+n5zwz/mc+PDB8YB8668auAwwBzHMR0NBjSbzSgvCqGsCUo80PB9ejaZCAv+nabCSpIYx4ok1DudDgXtNgld8ZvNJrVQShgEtEwSajQa1AlDjbU4Bz+qqpRaVm3SVxGkym82G+3Gw/19EoZyRzsYSUDWytpskg10iKOIXp6f0/OzM3oyHJLSR0Ib49Rt0Xq4FqweGK375PiY3l9c0OL2lj5cXdFisVDBhYlqYF9HWkpXKxVPapdADBi1YaPRiCJo8mk6pTY00jJqDRhiSRe0v9LGfr/Pjw8O6A9qjwEaj8cK/Hx9reCasQ6UDBqHYfgLCe7XY+xIEojFGoyXJFGCDkg3LKjqrDJfur7vnwJ8IqMsJQkTKG9WKAftFFbSPltzLVO5BUaG8FIujlDrFBc97QvKYfsv+m9Z+jpcZTmHvXDhLxD/Efsj7HsIaO0AbL+N+dfeBMAp7HWWZd/+AgAA//8cdxSPAAAABklEQVQDAJnPqveb6CfhAAAAAElFTkSuQmCC",
+      "title": "A beautiful library with SVG logos - Svgl"
+    },
+    {
+      "url": "https://codepen.io/maedbusiness",
+      "add_date": "1738800419",
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACM0lEQVR4nGxTu4oiURCt6nFgJhoxUFZBMdFIfGMgIvgBouaKgvH+geA3bGxqLpgLgmLiEzRRE0FYdxM1UlDnbp273cMuMxdOd3XVObdvPa6hlCoJ9oKH4C5Q77Jut5uyFmz4zM+7yYWmxPL4RUROwbuAH48HPT09EezZbIY3RaNRvNQ/MSUwBL8NSywbWWJsys1mk5LJpAZs+BADB7b5QyfIDzkdyyI8JpMJ1et1dT6f+eXlRZ/ger3S29ubarVaHI/HyUyFDMNQhojlbbDkyY1GgxKJhPL5fDydTj9OABs+xMC53+8MjdbKT9Vut1O5XE61223V7Xa50+mQ3W6n/X6vARs+xMABFxposQH3+30eDof8+vrKwWCQDocD5fN5Go/HGrDhQwycwWCgNVg25CLHp0AgQOl0mkKhkP6j3+8n1AOrXC5TJBKh0+lElUoFKWgNtDbdL2ZNlJzILObHt7Usv+WzOEiBnp+fab1e02g0ouVySYvFglwuF6HiAGz4EAMHXGigNdCPbDarMpmMulwuarVakdPp1EVLpVIasOFDDBxwocHCBuz1ernX67Hkx4VCQaFoyNftdpPH49E2fMViUYEDLjTQfhok9ByDdDwe0RVdKAySw+HQg4Sx/m+QUAcY2ECqq2KxGAaHq9UqbTYb2m63VKvV0BEtBkfnLhpdw68ukwT1aebzuS5UOBwm85Z+ukzYoCTGD8E3s2O6sLIR22y6y7rvIlT8t3dWb38Kvv8BAAD//1N1TskAAAAGSURBVAMAd7OjYTgNDeYAAAAASUVORK5CYII=",
+      "title": "maedbusiness on CodePen"
+    },
+    {
+      "url": "https://codepen.io/Mikhail-Bespalov/pen/dPyyZed?editors=0010",
+      "add_date": "1739315420",
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACM0lEQVR4nGxTu4oiURCt6nFgJhoxUFZBMdFIfGMgIvgBouaKgvH+geA3bGxqLpgLgmLiEzRRE0FYdxM1UlDnbp273cMuMxdOd3XVObdvPa6hlCoJ9oKH4C5Q77Jut5uyFmz4zM+7yYWmxPL4RUROwbuAH48HPT09EezZbIY3RaNRvNQ/MSUwBL8NSywbWWJsys1mk5LJpAZs+BADB7b5QyfIDzkdyyI8JpMJ1et1dT6f+eXlRZ/ger3S29ubarVaHI/HyUyFDMNQhojlbbDkyY1GgxKJhPL5fDydTj9OABs+xMC53+8MjdbKT9Vut1O5XE61223V7Xa50+mQ3W6n/X6vARs+xMABFxposQH3+30eDof8+vrKwWCQDocD5fN5Go/HGrDhQwycwWCgNVg25CLHp0AgQOl0mkKhkP6j3+8n1AOrXC5TJBKh0+lElUoFKWgNtDbdL2ZNlJzILObHt7Usv+WzOEiBnp+fab1e02g0ouVySYvFglwuF6HiAGz4EAMHXGigNdCPbDarMpmMulwuarVakdPp1EVLpVIasOFDDBxwocHCBuz1ernX67Hkx4VCQaFoyNftdpPH49E2fMViUYEDLjTQfhok9ByDdDwe0RVdKAySw+HQg4Sx/m+QUAcY2ECqq2KxGAaHq9UqbTYb2m63VKvV0BEtBkfnLhpdw68ukwT1aebzuS5UOBwm85Z+ukzYoCTGD8E3s2O6sLIR22y6y7rvIlT8t3dWb38Kvv8BAAD//1N1TskAAAAGSURBVAMAd7OjYTgNDeYAAAAASUVORK5CYII=",
+      "title": "Halftone Editor"
+    },
+    {
+      "url": "https://www.npmjs.com/package/extract-colors",
+      "add_date": "1740067867",
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAABK0lEQVR4nHxSsW4CMQx1nNBKrZAqXRkZO7Ox8gN8BHwFX8KfwMzOfULXTmUrQsAdF9dnJ1GulLMSJXHsZ+fluRKAAAwAWAs91jQa5kAWPvim6YlHBdUED/A0Gr1Op+R9m29MiCIiWQ3iab+vDgdsExC99xz9sdmE6ww4eT7n88t2i4hOARmbxOTepDo8GY4PHKBeB6Fsx/z5/LVa1cfj22xWLBZZRXIJL7TOSIhU19/r9YXIXK/vy2UbEIvjX/CY74rCWWuHw7zPwNL/xizz4IImZ6En4YGFR1M0kJEYyzedR9/bA6/QSvKXba+RezMYEHOf/LLRQqa8lwbfVdXPbudvt+fx+GUy4aefylKl0SaAiq9bHJMosyMoS6pbm8ub22SxyIdYlL+K8v4FAAD//9Bq0rwAAAAGSURBVAMAcjKgiB3fhXwAAAAASUVORK5CYII=",
+      "title": "extract-colors - npm"
+    },
+    {
+      "url": "https://www.hume.ai/",
+      "add_date": "1740607080",
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAACRUlEQVQ4jWVSz0tUURQ+37nvvXnzI60gySnFyBopU8EnSEqLCFMqqKhVRSXaKqjwT+gfiAgiWkebIFpJ5SbaZEQ4YAsxZCTbxGimzsy77953b4s3TkLf4oPzncM5nI8PQRAAsNbuZGZBZI0x/7ccAESUFESUcBhuEeC5fkMEQGQB8D+JINgBoLU61NHXfrBba0UAC4fq62Ct5cZWqcKN6loUyVymeerW0zvXH3meH2tV3VxVspZME5HI5/MAIi272k6cH7z2o1zaqK65IrW0XFxY+pzN7D41ctcy//5VEo5LRExEDJYqOt0zMnVxotDWHara65kn0x+eG6Nb9h8ZuzzePXg1jiOAiazI5/PWWlc4P1eX5xa/fln8xBApL+06HjNvbpRXlr4vFN9FcovARIQgCIhIalULq4bMnmwzwLQNa6lSKRNzOrVLCJeImIFQyb62wuPJh0OF/kjrxOjEaxWHvZ1nJi4929dS0FoCzAwOlQo6usZGrvS0d6pYu46TGOIKoWJz8mjrvdGhQmtB6ggAgiAwxqQ9/1j74fnlxfLGugDnMhlr7VYtMta27s0eP5AvllZCbVhw/QdjTKikK9yb5y5EsX75dlpA3BgNQilfvJ+LrUl7LgNE5NQTIkQa6ZzvPxifjEz4amYmm3Lv3z5b/bP+5uO32BChHpD6hQRKqeH+fhXHs8U5QAz3HpZKzc6XPM8hu+3DwMBA8mKCSq0GIOP7RFSpSQAZ32t0ATiNqCbclMuRtbExRNSUS5OleEfIiegvCcozOAyrElYAAAAASUVORK5CYII=",
+      "title": "Home • Hume AI"
+    },
+    {
+      "url": "https://thebookofshaders.com/",
+      "add_date": "1740978006",
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABM0lEQVQ4ja2TwUqkMRCEv6r8IjKC4gupZx9mL+I+h08kPs4clD0ow+BM1x5MxtnfUTxsQdNpUnSnkoo4jOMe+1j3+Bat5zvbT5KWkpa2n4C7GQeAadZAALYXki6AAEiS7UVV7TjzBvOcJAHeenHUm02zoZtRbPZzVb201tQnYlvb7fal72/2GjABx7Z/ASeAgZJ01Y++09tau0myGBxgVVX3As5s/5FEEqR/JH7C4CShqs4noJIsgYuuW4AltV4jSUm2nRtASZ6B8rfjfoD/ImFVVb9tn1SVbCfJpe3rfmwktap6kPQ4OFW1AlZfDbptrUXSWtK6tRbg9hDxkJE2tk+TZMhJEtunVTWMtPPN3EhjrX7zR3y8guaG48BfCO9OfLX9nGQQp6p63ecMfHXlP/7OfwE5Xq+9VUJ3NAAAAABJRU5ErkJggg==",
+      "title": "The Book of Shaders"
+    },
+    {
+      "url": "https://cursify.vercel.app/",
+      "add_date": "1741730241",
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAB/UlEQVQ4jT2Tv2pVQRCHv9/s3qMJiGgSIgmolTaWWucpbEMqA7Y+ioJoae9TGCwUX0AFIZrGRr3EQO45Oz+LPdetBnb2z3zzjXaP/AOxb4PAAMaiQEhGlpvAGBBmDgB8VhH7GEt9MyqiQhSwLUImQYlaM56EbNyv2K/0pyUJDZYqjkGScMjCKDFOKCNk2DkiJRhR10+rmhjgwR10e9sQCMHlZE6+QGuQBVhJALkyMlQMWggNOBbWq8OROzsDGKxe6+GbxsnXICRPuHNoshsKAVSIakU1QWKgOVmeX7A8/8vBPbF13dTBigKqoGoZCBdTZAhQdLwCPpyuePR8ycMXS+7fPOfjs+DtkyRKz1OAZGpIECYEFJjbiEpl2L5lZ0r1EjBbm+AQkkEiAgJj99905MyRAec6e60AawuEMSbAEpCWnOGfvy/onEVbmbz02q++EtLGBltUJ2RDJY2b9Ph149rwjacHA5+O90BwtW78t88NSJGJSSuwYLJzFNlMlh3+xF2/+36DjYXYLGJmSybkBDkZpt7OCtCaVEaTATYUi/efzfHLb1xdCGyc4vTXFdp4C4/g1qdBu0fuAxSmLCAWs1hhYkZmZnFGKyfIsZdhmWqBDEqRK6AZTd2LVubTKZyWp5nBmqlFxZwBe3Of3CZEW4sCspzuAyizRjn3ibN/vv0wII6Y8ZsAAAAASUVORK5CYII=",
+      "title": "Cursify"
+    },
+    {
+      "url": "https://silkhq.co/",
+      "add_date": "1742920929",
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABhUlEQVQ4jZ2Tu4oiYRCFv1mXhulAMNLAzMxIQQTBGwiuT2LmAxgIPoQgiIk0ZoJmsqAmGxgIGjQoYvsMRjKMoGcTW/7xssvugUrqr9v56xQ8Igm0gS3webXt1Zd8En/DO9ABLoBe2OUa8+4nvRnJP4Gc/xAOh8lkMliWxWq1Yrfbmc1+AT+AD9/RMTs1Gg2dTif5uFwu6vf7sizLnKZjcr6NXalUJEmTyUSlUkm5XE6O40iS6vX6PZ3kd6BqUKFQKABQq9XYbDYAzOdzQqEQtm2bNN6uuWzN8avVqiTJcRxFo9FXn+nbluuabk7LsjQcDiVJ5/NZy+VSzWZTkUjkWYHPhwK+FYtFtVot7fd7SdLhcFA6nX5aYPuXMVUul3U8HjWbzZ5SaJvOwWCgxWKhQCDwJdjzPK3X6/sC7W+GBgDwPI9UKkWv1yOfz5PNZul2u8RiMabTqbmFL1q4Ccm2bY1GI91jPB4rGAw+COmllOPxOIlEAgDXdXFd949S/u9jeoZ/Ouffs+sXMti6GVQAAAAASUVORK5CYII=",
+      "title": "Silk"
+    },
+    {
+      "url": "https://www.wking.dev/",
+      "add_date": "1743950764",
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABkElEQVR4nKTTzStEURjH8XNnrlHeSrGQjQhJNgrZSEpRsrGwY6lYYW1lY2MmC4qlP0HESlISYiehhpQsR15jmrm+T/ObZtJMKU995pw59zzPOXPm3FAQBB04wiAiTkG/EitSmTce0VzL6fD4OGO8BVeYxSlKMIdp5a0hiiS6EUMbbqxAQCeNFA6xgF7MoEEF7rGKYyyiD2GErMAznU2Moh57aNautlVgxFbDLYbwiC1M+Jrgia/Jtqt9nOt5GQbQ+mu+C8EOrh0VLhdWIK5thtUP8p5XKCdiBRJY0qRs2PgkPmRSY9mIKyfhq/K3DjI/Sor0neZaTuC7f4YVsMOI5G3xy2X+Uouk2k+1dh6lLnd2nv2N9hvtMtmhlGMZF0q4VNuuthPzeNezruxFsoF1lzmcXc/z4gV2a9e4kWYY1k7ZglYgpgIbJD64PwQ5dp13UGMFwvo9dn2rcEKhpyKJdTQ9qEW/nYfP5JTewjE0oZrv10UWt5s4jjuXedlePVUOaXW7YVFVLxQHSnzDC4unfwAAAP//RZI0jQAAAAZJREFUAwBVq5z7aAfI/QAAAABJRU5ErkJggg==",
+      "title": "A corner of the internet for people who love building digital products."
+    },
+    {
+      "url": "https://taotajima.jp/",
+      "add_date": "1746623936",
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAABFElEQVR4nJSSS45EUBSGq5QSTYKBICEswMAOrMDYHoglWIzYgxVIJCYmFmBCwkRIDIhXn5ROt9JV3fGP7uN89z+Pi67rejkj9HJSX8A4jlEUybJMkiSCICiKgvM8z+tDTdOIoghXEHndUmrb1jRNSZIURRmGIY5jhmFUVYXboijyPPd9n+f5H4e6rnVddxyHIIiu6wzD0DTNdd1lWcqy9DyPoqinlARBsG2bpmlY4zh+u90wDLvf77AFW8uy4PAJ+Hjou7J96wDmOO5Y9F6QBpR7+btLe8Hz0zSdAMABgHcDfQFAPucAiIZR9H3/EkAOe4gLw7CqqiRJ0jT9Xcz1YJ1lWRAEW5dYloUJbsN5C/yr07/1EwAA//9JAzlrAAAABklEQVQDAJA6jubOtxgEAAAAAElFTkSuQmCC",
+      "title": "TAO TAJIMA | Filmmaker"
+    },
+    {
+      "url": "https://dogstudio.co/",
+      "add_date": "1746802905",
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACE0lEQVR4nIxTO2sUURi9j3ntjDvsPIywTcDCHyBJK4KVIAHTiQgaIhaxiFja2YnWFqL+AIOFYmEiiJhSkSgiPjohUbLZ2VnEmd3M3Hs9u5mRZLJ5XBju4/vOOd9rGDl4sfIQNhpT2KztRu0QYGnbdvOIbV8llJ4njcZbEse90oEfBA7DcMI0jGeU0kBI+dxm7E+apquw0dJpT7DneWfhdRfK/X6W3QBJO8/zrACrvQgGRhm47qSp6w8YpetKqYe6rp/C+TLn3CzAIyMYMjuOc0yzrBcA/hZKvZJSdnH+1N/cvAiCmbBeP1GSaCMIeK1Wuw3rupLyKZVyVTE2CPsMopBCiEfcMOZwn68WkQ+L5vvzyDkH00ncBYEkInjfbrefOJZlUcYmiVKRY9unkzRd5jvyDoJp5DlGlfpGGOu3NjZmofrX0PUFrmmLAK/Bfh17HSI/kyR5R0uCMd+fVpxfabVa5/wwnBVZtmKa5jjIJnIpvzDGZlCH1/iWEM1HYHqlMkGvb6KaF5D3Gr7vUBlXW0V6mWXZB0PTLoFkMYqipWqrhwSu6/oGpceJrjcHj7BMoe93ut3ur6NBcB/ge51O53MpWHTgf+67VuB5c4rSN5zSa5kQj+M4XimKLKq+rNJCffBGOY80xm5hBpb3A1cJVOEkmVIpSJrIeaHwGQkmZPfPtDXfmiYxPF97SfKDbJv7UesfAAAA///6/75jAAAABklEQVQDABvy2pwFVO60AAAAAElFTkSuQmCC",
+      "title": "Dogstudio. Multidisciplinary Creative Studio."
+    },
+    {
+      "url": "https://www.reed.be/vision",
+      "add_date": "1746802910",
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAxUlEQVR4nMyRvQrCMBhFk9KlqIMvIC5uroKrzvoqLoKbi25u4uDg6lOIsw8gTgU7uikODoJCPIEGSiE/0MULh5vmfrkNbSwqKlJKPSzMzBDrDuzhCheYQ6KzGJqW8iQ/3McO0ChkCxiTDWLh16502KgHU2cBb2hjXcfIyHeDmievR56BFO6O/OQskFJ+sKUlfsHKdwNdssYm8Cxsn2FIlob8BV2y4YNuWbbgzfPNZEEFeckXy8r7wQU2/UfB0ZJlIkBSVNQPAAD///AwPzkAAAAGSURBVAMAKM1QRxiQYMsAAAAASUVORK5CYII=",
+      "title": "Vision - Reed"
+    },
+    {
+      "url": "https://codepen.io/filipz/pens/public",
+      "add_date": "1748032702",
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACM0lEQVR4nGxTu4oiURCt6nFgJhoxUFZBMdFIfGMgIvgBouaKgvH+geA3bGxqLpgLgmLiEzRRE0FYdxM1UlDnbp273cMuMxdOd3XVObdvPa6hlCoJ9oKH4C5Q77Jut5uyFmz4zM+7yYWmxPL4RUROwbuAH48HPT09EezZbIY3RaNRvNQ/MSUwBL8NSywbWWJsys1mk5LJpAZs+BADB7b5QyfIDzkdyyI8JpMJ1et1dT6f+eXlRZ/ger3S29ubarVaHI/HyUyFDMNQhojlbbDkyY1GgxKJhPL5fDydTj9OABs+xMC53+8MjdbKT9Vut1O5XE61223V7Xa50+mQ3W6n/X6vARs+xMABFxposQH3+30eDof8+vrKwWCQDocD5fN5Go/HGrDhQwycwWCgNVg25CLHp0AgQOl0mkKhkP6j3+8n1AOrXC5TJBKh0+lElUoFKWgNtDbdL2ZNlJzILObHt7Usv+WzOEiBnp+fab1e02g0ouVySYvFglwuF6HiAGz4EAMHXGigNdCPbDarMpmMulwuarVakdPp1EVLpVIasOFDDBxwocHCBuz1ernX67Hkx4VCQaFoyNftdpPH49E2fMViUYEDLjTQfhok9ByDdDwe0RVdKAySw+HQg4Sx/m+QUAcY2ECqq2KxGAaHq9UqbTYb2m63VKvV0BEtBkfnLhpdw68ukwT1aebzuS5UOBwm85Z+ukzYoCTGD8E3s2O6sLIR22y6y7rvIlT8t3dWb38Kvv8BAAD//1N1TskAAAAGSURBVAMAd7OjYTgNDeYAAAAASUVORK5CYII=",
+      "title": "Filip Zrnzevic on CodePen"
+    },
+    {
+      "url": "https://csswizardry.com/2022/03/optimising-largest-contentful-paint/",
+      "add_date": "1748111431",
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACIElEQVQ4jaWRT0hUURTGf+fNe2qaES2CFkYgGtEfCmyRtSgiS2ljqGRIbWpR0FLbSK2K1hIRgdFGKoxoU1IuWmTQokB0EZJFmJFhqaPDzOibd78WL2emiCHo25x7L79zz3fOsaVdJyNMZuYhOcw8o4Qkp1UWmTwzzDAgH0uqmDXDfMxWs1R0LvGDWTHrIQlJgP2KpVXMSvJ/q/rvDig4+E/5kvLjU2yxuFr8/kdnZpZnfTMDibixOKnQL+gvs5WUZ30B5ifyC1TkQMISXmGxAkVRfPe8Qg0nfOVyaD4dWzeD6ioIfJRKQ2Y5BssCrLoKnMMlU5DLxXYr1+Db2kr8c60kdtQSjU2SGxjCzSXxG3fhdxyFMp/o6Qi5oVdQUU5w5jiJ/bvR7BzhwBCEH6eVm51X9v4zRT8WFI5PKtXWo2gxpZUnL7U8OCwnKd17U5nrdxUtLCl7+5HC8Uk5SRaFodInunEv3pA4vJfgbCv6vkDQcYR080Xc23f4XS3gHGXn21EyRaatG1u/Dr+rGQtHJ5Q5fRkLfLS8gmbm8Oo3U3HnCl5dDW5qhuj5a8K+eySa9lF+9QJguPFJcoPDWPjhszLtPZANoTwgsXULbvobrIR422vxGrYRdB5DU1/JnOrFq9mIt7OOxKEGgpYDEEWR0pf6lNzUpPS1/nge/Y8Vjk5oaU+nkpWNyt54oPDTF62MjCp766GSGw5qsb5V4dh7/QQ5cSGgEoOaqgAAAABJRU5ErkJggg==",
+      "title": "Optimising Largest Contentful Paint – Web Performance and Site Speed Consultant"
+    },
+    {
+      "url": "https://www.unicorn.studio/",
+      "add_date": "1749140938",
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAADVUlEQVR4nCRSQWwVRRief2Z29+17b1so7VPkadOkaomQqEQCpMZo0og3QkQvgpIQjKEHE69w0Jh4IJEDB4kXjPFkjFw86YEI0ZBgQQmESJomRdoS2tLdt923szsz//jPYzabf7I7/zff/32fPPDGp/snp6a/SZKhnUEQmTAIIYgEkyJ0zWYkJie3/XL4nbETwFjG4L3g6wtfne90th5/uhMv7JyKZ8Xulw9dGRl9dsqYGhBdiIiBtRigY1KVmgFPduVF9d/3463rJ2ZPH+s+9+IXSinMcuxQeUuKIJqoK2U5B44cHT3MOebQWuCCuX6/xHTDRYzW0PDYUeYAjdaAFs3qKnalQ00XI2cIjJoYctpy46ujJawp+fbuxLXx8cPbm63hfaXaBIIHIbgoS1VLiw6cbwQGyAVtLdHmAFw7zkOOqPMDr6zdfm364Eet1khcUVMjjsNSqUViYTlaQwysQ89jUC3zIEZbByBcHDfvAozlnad2vEtH/Dkwxhbp441LYdQaIQCCMRasNcwaQ0Ia5/f+O+eSCQl/7Z0+9ULUSPb3i8zKoB1s5vl5BpAIEW3hjhEmGnBPbnfGIHgtjK1pFEfA1fUd3Zdm4jgJGOO8yNN/7i/M/xSF8ftFkWlJzZ4D6eV1ptlhIAkBcmF0ZU0FS0l75DSNhfSVZen6yS1bR98m+u1KlTk3ui6f3GiAnGHG6MEYiIyTQ4/u/XsnDBrNPZQLvplnZy+cOzgHUp4qip6rteFcqfwBzcCcNQMHSBCmtR4IKIS8kab9ve32aKuXrd25dvnHMx9+/POxIGw8o8rCy+RRH/7ueZIHNIkmJt4FTSMhlGW2zmXjzbruY5Gtnpyb+1YHYfBJXdfOJ1dT5cv3b3zXy5YqRpJZU6MHoahxYyrb6603pAxf76WPzv1w8eifRz64OEP52aP6PTTG8LrWyNN08ebK8q2zJJhgIGgEbTTZaXXV0zW+Spb+vZA/PMMow0ptHAKQTBO4pZ/WaCFIeni8Nn+Zgt+OomRfECWSUxKJUEzCyrSXHrly6bNFxj5nyVB397bRiRly01IGZFGktzzAYK2vzv+ap0t/kBCh1koold1L0+XZq799edX7S69beXDzdhAOPy94sCtLlxdWlu4e/x8AAP//XWePPgAAAAZJREFUAwCDsUK3GljtNAAAAABJRU5ErkJggg==",
+      "title": "unicorn.studio — No-code WebGL Tool"
+    },
+    {
+      "url": "https://www.sacred.computer/",
+      "add_date": "1749265439",
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA00lEQVR4nOxTuw3CMBCNiS25yRo06WkRI1AkQ6RJiZgAUabJEMkQiCHcsIYbSzEcd1aMLp+GPiedfHrv6dmW7slkrK7r0rIs323bXrXWR+fcSwihiQMAh9gesWdVVbeoJU4my/pYa+91XT842DTNSSl1mIt3cSiKAujEW4WUUuGtArGUmmbCiOPaiUHf94I7oxbyPA9NM+e4du0Lf9VmsBlQLVY5Fq2vMSY0zZzj2t8L4nqiGLz3w7i+IXEUAQzTgGECrp0Y8FdlWXbBWJ/X4jwXfwEAAP//tr/kOwAAAAZJREFUAwCWwWFNyq9OqgAAAABJRU5ErkJggg==",
+      "title": "sacred.computer"
+    },
+    {
+      "url": "https://www.gonefishing.studio/",
+      "add_date": "1749846244",
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAB6UlEQVQ4jY2Tr08ccRTEP/N278eWJkdxRWAbfE0FOCQJpkkthr+gRaMploRgaptgmiBxIDD1TS2mDjhS2L273e9UcMCVoz8meeZl5v2YZARgkMAA3z+8W5LSutEysMAtzoSP7fj06uPnk0mNxgS+bqw+670otlFsdPNoDepEYwOQSXTyoKrTCKf9/kW5+Xr/8AZABv3YWi1+lsWX2W5n5bIapoSTTMYELJpAMdttx2U1OHpelGsvtw7LELh/XWzPFt2V83IwBBDKeYS73nk5GM4W3ZX+dbEtsL69f/smz+IEINlCCmwj6bcJdz07hWSAuklLERkb3VaWNbYBPSkGxmIDamx3W1kWGRs5aGlYJwsFYlr4eMitcTGsk0FLOdbCyEnCYD29/fErWKMkCS3EX8n/gUA+a0UY4t/b798ItyKMfBbgk3YeMk7YHhv15/NtG6d2HgKfRGrYr0ZNk91u94Tb0+IxJ5NUjZomNezH4s7BaZ281ys6maEWpPshkyVJkAx1r+hkdfLe4s7BaRjUmyk3L8vqaK7otAGM66kDxr25otO+LKuj3ky5aVAIPL91eHN1Ua71q8GupGamledZhJCEpCxCM608l9T0q8Hu1UW5Nr91eHOfxuk4e914GfQQZ/nY6SHOgAD/Aiy7DLjHpJlOAAAAAElFTkSuQmCC",
+      "title": "Gone Fishing Studio"
+    },
+    {
+      "url": "https://github.com/ossu/computer-science",
+      "add_date": "1750518362",
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABtklEQVR4nIyTwStEURSH73szZCiFopTFlM00CzYayp9gpxTFQtkQZcfeghQLC81kFvakLEjZDCuJsLCYwoxig5JixpiZ5zszZ+r2snDq6517z/ndd96557kG8zzPMWr4A5CEe/iCnPpbEDM+s4V1PJZhGhpq2768HGzAouM45UoAoctTxDswZP5nuzAKJVdPWlHxMYxBCj4hCxn1TzV2CMOwJFqpoF8FAYizOcNeEL8D3vSNrfBKrEBsHX8WvmFQEqegXhOLJMhBJZKfrJKfpdEaK+rLGmFSNtM43ZCHXoRp7YuH72mDK02UNRbGvYEmuJbETu3yCzxoYrkmrgmt9aNUpH7YVbGnJ4bsmfCbxuSKm1UXcLXTYm0Q0zKDvuGSzaBWIU1v15dmXb0eo1cl0xYhsfjHJ0iDo6Y6SEYrOJED4rpIwgXckrgHPVYFUdjGPYMIyOwUICFlXRLcZDEHfXAntwEf1ufLDU2oL+McgjW0V/YoH0EXLECG4LlVgTQuY6rDJbYPI/Dj+JISMK5bLRzyrjHpuvglzZmXqZRYsNZlrFKm/Lam+l/krU+QsV2FA/JSlsb7BQAA//8fGtSHAAAABklEQVQDAIsg4TDVy+61AAAAAElFTkSuQmCC",
+      "title": "ossu/computer-science: 🎓 Path to a free self-taught education in Computer Science!"
+    },
+    {
+      "url": "https://x.com/jordwalke/status/1936326607381377521",
+      "add_date": "1750548174",
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAB00lEQVR4nIRSP+tBURh27zVI/sRmlZLVB2Aw2MQHsLAIgywMFsUgBkKSEiWKAbGKmBSSTTaFhBQpgz+/R6eui+F3h3Pued/neZ/3fc5heP99FEVxjwzZZDKZUCjEerlcns8nF42jWCzGz/1+R4QmBWKxWLfbJSuYNE2/cjQNtFarbbfbcrn8Q2EymRgMBqvVqlarTSZTq9Xi8/koqVKpCoWCy+VaLBZvAkROpxPDMEg4nc5AILBer+fzuVQqrVQqiUSi0+kQtReY8HB+PB6lUqnZbI5Go1qtZrFYMpkMpLLZLGqRAV5IsgENHY/H4/V6r9drMplEk71eD2jUYtFvAmlsv9+Hw+FUKlUsFqfT6XK55P26zD1g0NvtBk/6/X4+n0frRqNxu91yjX4rQBpovV4P12EXJoZaPB4Hmrj8QUA/GEOj0UQiEZvNZrfb4Wa1WkUJh8OBFMthWKpIJKrX66FQaDgcrlYrpVKJftxudzqdHgwGu92OXDFFygsEgkajUS6XMS5MRBuYB5P4fD6I+P1+s9kMHcQZ8lqCweDhcIhGo+RCEARuPB7ncjmFQqHT6TabzWw2Q5ZiH9/xeCRkrm8wQCKRnM9nxLF+2/pt+Q8f3x8AAAD//+aCMSEAAAAGSURBVAMAIEX7cbBL8qcAAAAASUVORK5CYII=",
+      "title": "jordwalke on X: \"Reply with the best Ui you’ve ever built.\" / X"
+    },
+    {
+      "url": "https://intentui.com/",
+      "add_date": "1750549316",
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABPUlEQVR4nKSTPUsDQRCGn9mc2hhEkRQiQRTERmsrQez8A3bWgl7pr7Cwt7S2EkEQsbIRbGIUFIsYMUUkBj/SiLkbd+9MSIpg7vJWs3P7fsxy4+HryKiGewKbCGP0A+VD4bAhZteLyIJPElgja+hbLpLdCd5dI2NgbQGGMlCsQPVTyU9IdP+5ruSywtI0/ARwcQ/NME7itWI78tGWiQhnd8r+ubIyHwtcPirbq8L6YnzeOAg5vY2TeK1Uzrld227GSPvs6s7vwx11W6BYUesc2ovCcSHk6Q2m/p60VFNObhTPGDuCUnjRyD56jqwfKH0gP67MTAqBnf26rHw3pTvBf1ieFeZyManWgIcqyQR6oW+Bq5Ly+oUdQSnXXSfhCOW6dBETJ+iFgQWM+x1JC8s1bqtICcf13EpGW5VynX8BAAD//024ZO4AAAAGSURBVAMAi5BwSCYRUvAAAAAASUVORK5CYII=",
+      "title": "Intent UI"
+    },
+    {
+      "url": "https://collectui.com/",
+      "add_date": "1750552862",
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACeUlEQVR4nJRTW0hUYRCemf/s2YJWXW2XKION1hSXkC4PWRFKUEKE3Quqh+ihQIMwgiAIfa6HoKLn3sR6sfLSVcgHgx666VKpIZQouuu91OM5M/3n2K6a+tAHhzMzZ2a+uR0DFkEQAMWVil4l1iFShFA5tknfP+0KDMy6aB+c9UFYArGX46fEZ5yVmak1SjghipQOCaPP34O2dae9JOtFyncugQBGmzpNRcFaZa5cC8K3gCab4qXhCZexuG0sOG7JSSF1jcB+8HlP8IZrp7mSQAiCj3QiOvHmZnF8b+ChF+yipgbbdmYOaeb7KNZuYng/S486sFrHVSNvakhUMMDFrgOrN8N/wHCDS1rE6J1IVpJBV1xjwdPBbcpUOzr2Zd+LNiYzDFMqDDTqGKUcEr1348djtmZn19drof9Xosh9WytGX3uVGRhjRy64smljFjNVaXEjsFzKzI2pVHA6gS1QoHv/0VO6YcrVWXBShIf0bIj8Inqgg9poCUuybxpkfgteAsWI3h5Sq2H2MYPH5CccE0Y/zzikdYxEFs7AS6BH+VXTrC+sazc9o6KPDBjLfzZybMKG63pBCfCpYV1BsOvdT1yUINCX80GXa1i+UImrx8tyOgyUSn0aV0HRVkV0Xhy7Xy+9ZcWqKXZbS1ebWmP0cfKyiHOuuzxcBEth3vnOB6Y/akTrB5u08LvzUPgILIPC5tEoorO9Y392bboFL7N+Qtb0Ya2Zec1jb/MaRo7m138JpAi2NPaFCp4PVzlgtzJw9G9ZuOTPlP9k9LT48IxY02EiGNBuhoiElOnvJrZvx8uyWxe2sAz0Feaa6ESAacZms/vbwYzEv/P4AwAA//+qiDtWAAAABklEQVQDALBzGj/77CQbAAAAAElFTkSuQmCC",
+      "title": "Collect UI - Daily inspiration collected from daily ui archive and beyond. Based on Dribbble shots, hand picked, updating daily."
+    },
+    {
+      "url": "https://saaslandingpage.com/",
+      "add_date": "1750552875",
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABoElEQVR4nKRTPUzCUBDuvVdacHDBGBZDCVDEyUk3o4lxczXq5OJgHHQ1MXGVxcHVxM3RVQcTVxd/BjUEwkJkMFF0UYHX13deoTSIAQYuaXvvfr/v7lXXhhRdG1JYDzv08f0L7NS9R/WIa8f+8fOuQPReiYQ9E4vFDqLR8Y9q9e2lw4fdlYMZJJPJCYDQNGPqXiktwznfdBznwrKssKYZlmHoY42G+C6XSw+dBZo8bTu7quvGHiVLRH0NgH0qpSS5hGFETkyTXwJou5GIeZNOZ+d8OjwoQMgsKrDFWGgHEa8BwOPJpXQbdA4jAZdSHZHdpNxln4obFJBSnAshcqQuUKdDSvLsFA9eoOPpSuFXM4Hhu23bk/F4OhvMgLqvE++ylM42cY8iQshDyRiMtLqBq+t8yXVVRSnnjDHjyjTxkXwrTQT1+s8xY9oroX4qFPI51xW3BHteiNodoRglIDEA+VyrubOlUqmC6GxIifvt/faVTGbqlCili8X8Ih0bfk6wTujeiNa6KJ0Xx5s2plIpTt2Fn8z8Lw5EMEiG/pmGLvALAAD//zTjDTAAAAAGSURBVAMAZoqeqHNC0akAAAAASUVORK5CYII=",
+      "title": "The Best Landing Page Examples For Design Inspiration - SaaS Landing Page"
+    },
+    {
+      "url": "https://effect.kitlangton.com/#effect-all-short-circuit",
+      "add_date": "1752685813",
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAAyklEQVQ4ja1SOQ6EMAxMNhUNP4iUFoFo/BnEAyh4BsfbgDafQFDSj7NFJDYrRbBIO5WPsWWPLUQMUkopZTT1J2ittdYPCuZ5nqbpnqeUUkrleQ6AmYui8JGQ8wodAADquvYbV1XlI19NQ4eI2rZtmiZJEiFElmVpmh7Hsa7rh+SbGWOstczsnHPOMfNpA7DWGmM8+RUOE13s6iBE1Pf9vu++ftu2ruuI6EarcRz9SMMw3FC9iGVZMjOAqKxxLMvy0+FOPH6Nx7h47zckRGyGyv78mwAAAABJRU5ErkJggg==",
+      "title": "Visual Effect - Interactive Effect Playground"
+    },
+    {
+      "url": "https://www.tints.dev/palette/v1:bGF2ZW5kZXJ8QTc4QkZBfDQwMHxwfDB8MHwwfDEwMHxh",
+      "add_date": "1752723941",
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAC70lEQVQ4jX2TTWhdVRSFv33Ouffc92OSlzZ9NtUQQkSFKq2DQluig2IrGByoqRQROvJn4sAKThRCwU7EImbkoBMFBw1OJCoOhA4sFkEzaR1UjNVOkr6XmL++l3fvPWc7iKkW0T1fi8361hL+537+cNzvG2s+Ld4+ZrwX41ONzqEu/d5fWfhKXvmhkP8Sr188cDqrZm/ZLH3IDGSQeUhTSFK0tKomuZbn+v5dBhensAcnxt2uWt/Hjfs4SVlQ2kxtbSCQpoj3aJoSrVrbVxF8HbcjVhCZJSwdHZxpNIqTmttcRp9KnSuElWsORQkRIYptHoSkBt3rwd4Rg95698iBajV+ZDMTOXzefvHjkFyedzoyMkwl3BARJ614TGc/T2ivjMnY/ifN9gdTGGYJKv5UnTXLwy/Hr+dFzr3xpsZo5ebzk7xzqkmIdWYuLMg3c3PUahnGvIcBkFnCNBhT2ifyXqn4hlluLcvG6oZEjSwt/gGFI/Qsi4stNJZsrK2z3FrE7mTwydThzA3at7Oa7Stv34j3H3mOIrlXGkN7Of3sKMNyFZtvsveREyzHJkePn2DqxUnuUFh86XhN9pULA824x/WthbB7yNjxZ0R7q9j2d+hWSbsdqPQ3qT94DNI6tL79m0L3Zh4qe1wR8qguVMV2WqI/zSDJPQTbj7UJn10xXL7e5uzkBUaGI1Tr2xkAMnrpUi/kclXyhNAxUfJMrWuo2AqCgkQeGBZWOp7ftgaxA7tQk24bKBgBjcHMaddKr2NUO5Z4W4WQq8YClUB7oyAxXXb3B1RzRMq/KEAAoMentzZlKXSd622YyKZDO4iEUpGCxCqKVe9LxQRESrX/aKLpn/+lc+bQoQXn6i8UYUtEy2DAGImIibK5hU7sjzw63hNCCFCau7aw08hfXz/zaqUSP/CVVa/pUvTVjjHVgqw/QAK9HPW2Iuub2vvXGnV62sj0dPz9tfMT1bo5G214PNhVXLom2C3UiHqPROl+GbVz7k9QxkkptOw5DwAAAABJRU5ErkJggg==",
+      "title": "Tailwind CSS 11-color Palette Generator and API"
+    },
+    {
+      "url": "https://github.com/snarktank/ai-dev-tasks",
+      "add_date": "1752724097",
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABtklEQVR4nIyTwStEURSH73szZCiFopTFlM00CzYayp9gpxTFQtkQZcfeghQLC81kFvakLEjZDCuJsLCYwoxig5JixpiZ5zszZ+r2snDq6517z/ndd96557kG8zzPMWr4A5CEe/iCnPpbEDM+s4V1PJZhGhpq2768HGzAouM45UoAoctTxDswZP5nuzAKJVdPWlHxMYxBCj4hCxn1TzV2CMOwJFqpoF8FAYizOcNeEL8D3vSNrfBKrEBsHX8WvmFQEqegXhOLJMhBJZKfrJKfpdEaK+rLGmFSNtM43ZCHXoRp7YuH72mDK02UNRbGvYEmuJbETu3yCzxoYrkmrgmt9aNUpH7YVbGnJ4bsmfCbxuSKm1UXcLXTYm0Q0zKDvuGSzaBWIU1v15dmXb0eo1cl0xYhsfjHJ0iDo6Y6SEYrOJED4rpIwgXckrgHPVYFUdjGPYMIyOwUICFlXRLcZDEHfXAntwEf1ufLDU2oL+McgjW0V/YoH0EXLECG4LlVgTQuY6rDJbYPI/Dj+JISMK5bLRzyrjHpuvglzZmXqZRYsNZlrFKm/Lam+l/krU+QsV2FA/JSlsb7BQAA//8fGtSHAAAABklEQVQDAIsg4TDVy+61AAAAAElFTkSuQmCC",
+      "title": "snarktank/ai-dev-tasks: A simple task management system for managing AI dev agents"
+    },
+    {
+      "url": "https://github.com/vallafederico/smooothy",
+      "add_date": "1752783501",
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABtklEQVR4nIyTwStEURSH73szZCiFopTFlM00CzYayp9gpxTFQtkQZcfeghQLC81kFvakLEjZDCuJsLCYwoxig5JixpiZ5zszZ+r2snDq6517z/ndd96557kG8zzPMWr4A5CEe/iCnPpbEDM+s4V1PJZhGhpq2768HGzAouM45UoAoctTxDswZP5nuzAKJVdPWlHxMYxBCj4hCxn1TzV2CMOwJFqpoF8FAYizOcNeEL8D3vSNrfBKrEBsHX8WvmFQEqegXhOLJMhBJZKfrJKfpdEaK+rLGmFSNtM43ZCHXoRp7YuH72mDK02UNRbGvYEmuJbETu3yCzxoYrkmrgmt9aNUpH7YVbGnJ4bsmfCbxuSKm1UXcLXTYm0Q0zKDvuGSzaBWIU1v15dmXb0eo1cl0xYhsfjHJ0iDo6Y6SEYrOJED4rpIwgXckrgHPVYFUdjGPYMIyOwUICFlXRLcZDEHfXAntwEf1ufLDU2oL+McgjW0V/YoH0EXLECG4LlVgTQuY6rDJbYPI/Dj+JISMK5bLRzyrjHpuvglzZmXqZRYsNZlrFKm/Lam+l/krU+QsV2FA/JSlsb7BQAA//8fGtSHAAAABklEQVQDAIsg4TDVy+61AAAAAElFTkSuQmCC",
+      "title": "vallafederico/smooothy"
+    },
+    {
+      "url": "https://notbor.ing/",
+      "add_date": "1753372285",
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACI0lEQVR4nGyTv2sUQRTHP7O7dxcNJCZ4JKmMKWJnY21ha2MK7fIHWIiFja2FnZ2gjaUg2FhY24pgIQhiwF8gghDQMzF3udu73X1+Z2fu9hQXZndn5vve+77vdyaz5wyAlOnjwKowkpREc2cFpV93HmXMP2Wmlx/tesuDSwFbGkswOYRK886qMEMBNFxWIy2UYuynVcxrdfACbj/H7t2Htx+VPYFzm3DzKmx1cVUfE7Mpj8qphZGmHc9ajbif+tm5DR++wdqqqqvEpIDuMjzS+tnTAirCqTlRyJNZ36qeCPTgKex9hTPr0FLPmRKsrcCR6D98JmwrcHeRQ0igSSpweQwv38PSIhznUJRhDMeweAK+fIfRoNbI2V8Jwp8rRwqYUHOrnbCQ3H99osM+vNqrZbcmLDIQL/OB83Y2W6osFq8/wZMXMcqFxDMNpgt1kDXBFm3yCfpiOCxqHZxn6As2DDxQ38ofoNiYB7i41pKY66ek0Tvo9WRlO7SZzRhUOmhp/Lem/yoyOtmB7Q24cik444Nxcy1UBdbS6dvaCKq3BSqikPK8bqErBrd25ZI/4P+2YF4DgW5cC03/lqWZGCVaH8nS/R7sXpbVsrEcR8GjiP4OWJroe4Rd2IbHdzCdQjvQ/MeB+tXe3evYzkVVHQibRX29czrK+ewyES/Tcqj65nM4xuc3YUX07VdoZ87msfvfdZYe3omUhShyTqlbWSQNavqUfwAAAP//9Xww6wAAAAZJREFUAwC9TuphvVoXSwAAAABJRU5ErkJggg==",
+      "title": "!Boring Software"
+    },
+    {
+      "url": "https://www.companypolicy.studio/work/normal-computing",
+      "add_date": "1753559041",
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAADFklEQVR4nFSTTWgVVxTH/+fOnZk3k/ee7+UZo9UibfzqF6UUEaJpkYKtpYu2C2kXhVYICF22EdqVdtFFxE1pQQjYRRctFEHEoAgqGhU34gcxCj41aiAm+iI6zzd5M3fmeG6eC3M3c5l7f+f8/+fco7GwmABiu9uxN95af4CdqeH+LMeKuA1oB9PLKnShVsHBI78Hp19lCC/Xnr9miyfGS8ONyBmsVV1d8hMEfoZ1q4CphoPLdQ9apabkZyPb3o127/lxWdNyZCN9tw/hzXp8LKVgYIkf5799j3zyIZyvPgJKIdP4beJGhOznA1CGAuVyPLZhTbD9nyG0FEuM+t3W/qYJBt6stZKhHaDUQAcFCwOnLhH/eRjIMuhfvgXNNVqJ4wcDN2619ltWfTYUbzG5Hpxvts2mt0l3FUCPI3BvxaoDvb8GtHE9qKcK/vpj0FurSTejtsmhB78QVj9t8i6lPOXpOI/mQRP3wFI4ehqJOYkQzwO+B0xMgu7PgF9bar853DBQjSjepSXN5uh5yts3QfUtB+U5EAjQNsChs8DzGFi5FOhbCbze0zm3ytmk1sFmnWXUWwoNjV4EHjwCf7kFtKRLMkv79v4AVEtAJPX++zjwwTqgVga3E1Cly1CWU6/Gy0bayBtWA1IDdJeBD9cCSs7aoqBU7BT0zGXg1lRHYc4dThHxDLNm5YBn50DW83QD8Fw5lAueXL5+Z6HfmLgPjN8FlYtgk2m2rJIs51m5VPCQT4mFvlXgmbmOdwmKJBX/8piqouqPQ+CeClhamivtEgmruot0IEmSPCwo3JsVFU9A33wCtpLl4kJmCY5/T4JdMSzPWoqnYNIkrwmrju4LznnKjED7mjM2/58FX6mDph5jwZbMA9uGbtsIMkY2LOqVr11hLCsOGOvXhj+lcTxWrobetbo8mF9hhv8DHLEZhJ15eWM5TFgApyr0OI3HLGPZRcM0erU0LMYHlXK12EL/OxkcqeSdaQeTsx58nRpHZSOfv7domBaP86e7463S950m4/7GM6yw/1wZ5+4yXagWcXB0ePE4vwAAAP//0dQviAAAAAZJREFUAwBE6VwpUJvFHwAAAABJRU5ErkJggg==",
+      "title": "NORMAL COMPUTING - Work - Company Policy"
+    },
+    {
+      "url": "https://texturelabs.org/",
+      "add_date": "1753816788",
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAhVJREFUOI1108mLVVcQBvDfucN7z/smxTEaiRhUJIgDgqsI2QpCiAjJImggG5ONKzFu7CyzyB+QTVyIIIiCuFN0oRIRxJWEDAZxNp0mbac72sTX72RzLlwFCw636lTVV1XfrZMjQ/R2OYw2dmAZHiDUzgLjgx9vW9dq53nVXRTh5fxcPjM1mj998c5D3MO3OIr7KS82AY4MF/eOr393aXtmdl67VYyH/dVhNAoP788+/+DGjUd3sQJ3MZWqx/qb47qo+Gv65eym9avLVtkpL//0ezb34tX1C5d+HsUYc9zGLtx8Y7wAZ3Eec98f+/TVie++/AcnsSoFDbAx6VXqeg22SATu27/fJ1kIM1lWFiuXL30W48SBODExiQ6+SXGwF7+hh8+xoUB25owecbrdLt8JIeRrwkTnCS/wFW7hlwZnOX7FVRzNMK5ZrapK1a0WUvIAu9N49W87hFNJv41NRQN50O0PdIeLixiFEHyUWB+lmLXYigPJnkZZzzZGq9vrh+FgOA5BxGY8aTD+Be7gj2R3MMwaAbEoythZVI0bd/829M9womG/h+dNgHK0MFa08nrL/kwLBDsTJz82+PgQ51/roN/rhHaZ5zEKuIL3k+/r1Pp2lOlsxA81QED+9NlkfPR48r8QhLT317An+aewkPg6hHP4u64+xNOyzKeW9Ku9TdBUtSmdRLDmq8ywAeu8XUIzodb/B3jUkbcLKfW2AAAAAElFTkSuQmCC",
+      "title": "Free Textures, Tutorials, and More"
+    },
+    {
+      "url": "https://x.com/p0/status/1956007609250492924",
+      "add_date": "1755222664",
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAB00lEQVR4nIRSP+tBURh27zVI/sRmlZLVB2Aw2MQHsLAIgywMFsUgBkKSEiWKAbGKmBSSTTaFhBQpgz+/R6eui+F3h3Pued/neZ/3fc5heP99FEVxjwzZZDKZUCjEerlcns8nF42jWCzGz/1+R4QmBWKxWLfbJSuYNE2/cjQNtFarbbfbcrn8Q2EymRgMBqvVqlarTSZTq9Xi8/koqVKpCoWCy+VaLBZvAkROpxPDMEg4nc5AILBer+fzuVQqrVQqiUSi0+kQtReY8HB+PB6lUqnZbI5Go1qtZrFYMpkMpLLZLGqRAV5IsgENHY/H4/V6r9drMplEk71eD2jUYtFvAmlsv9+Hw+FUKlUsFqfT6XK55P26zD1g0NvtBk/6/X4+n0frRqNxu91yjX4rQBpovV4P12EXJoZaPB4Hmrj8QUA/GEOj0UQiEZvNZrfb4Wa1WkUJh8OBFMthWKpIJKrX66FQaDgcrlYrpVKJftxudzqdHgwGu92OXDFFygsEgkajUS6XMS5MRBuYB5P4fD6I+P1+s9kMHcQZ8lqCweDhcIhGo+RCEARuPB7ncjmFQqHT6TabzWw2Q5ZiH9/xeCRkrm8wQCKRnM9nxLF+2/pt+Q8f3x8AAAD//+aCMSEAAAAGSURBVAMAIEX7cbBL8qcAAAAASUVORK5CYII=",
+      "title": "Parallel Web Systems on X"
+    },
+    {
+      "url": "https://studioaaa.com/",
+      "add_date": "1755316514",
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAB3UlEQVR4nJRSTasBURi+Y8ZgJtybjyJRqLl/QcqOnbUV8gMUP0KWwsJCijXZSrHxA1goWVASScnHwued4T5m5Lr3uov71kznnPd53/M8z3mpl38GeV8RBPEX6DElw+d2u2Ox2OVyIUnySUuSRCoej3s8nluB0WhMJpM+n08QBIqigKDEIMXAIVKJREKn090KttutUqksl8tI8DwPBC+GIAYOkVKpVLvdDmDqWiST4VKNRlOtVsFtMpk4nU4cDgYDk8mUyWQYhgEAJ7cCQozT6aRQKPL5/A8NH2LI5XJJ+rVgNpvhapqmn1oEKP5gOJ1OrwVgDw6r1arf71cqFZvN5vf7c7kcWkSj0Uaj0ev1AoGAw+EYjUZQQoAuEpFIxOv1Ho/HzWZjMBiWyyUK9Ho9GqGjVqut1+ulUimVSlGLxQLVarUais1m836/BwgL3A4Ob69vDMuMx2OWZS0Wy3w+lx0Oh3a7DRxAEEfLaYiDM9lsFrbABrC3Wq3wtNPpgAKJ/Xq9TqfTSLtcrlarFQqFisVirVZrNpvcO4f7ISkYDEID7Pk2PxAXDofhL1w/n89oAZWFQgEP9zVX94fDQhonu93OcRzc7Ha7w+FQSkmPgDXxOJJAg+Hv4YNj9+0nAAAA//8HGnbLAAAABklEQVQDAP/r/lAshM8ZAAAAAElFTkSuQmCC",
+      "title": "Studio AAA - Design assets and free graphic design resources"
+    },
+    {
+      "url": "https://usgraphics.com/",
+      "add_date": "1755485248",
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAABK0lEQVR4nJTSsWvCQBQG8LvztTXDlbaBuGTM1kk6CM0mZPCPEBwcXFyyaDcHhygouIjuLbgKQka7FzIURMeOYmmkDS2hWq8Pjg4VlMv2ht/wvfc9uEunr+OYMHbpeafZ7M9q9VapiCiinOuDQcowvoNgXa8TIcCyXkolQG0zpg+HvFxGvcznN1HEOM/4/plto162WjshTiwrM50+LhaM7OnZ7J92nF0YSg2muZnPAZMo6s/RKHRdkLlV9GuxSLZbSKRTpkkfOL/d2/KA1hznuVplQlkb4zHVNKBJ9NdkAtiOol7XalGvB7JLFf3ebhNCWCKNWeg9pfZf88f1uesGhQIjyvqq08EBQFmLOP7odqnXbN7kcvhV+CeyS73flxfEm8jcF40GDqiffP8XAAD///J52SMAAAAGSURBVAMAPLlgNfVeRmwAAAAASUVORK5CYII=",
+      "title": "U.S. Graphics Company - Office"
+    },
+    {
+      "url": "https://lab.chsmc.org/",
+      "add_date": "1755781986",
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABlUlEQVQ4jYVTy24TQRCsmhkbG4XwA3BAQuKn8gdwDt/APT8QKSc+BIkDHwBcLN4Rr8gb4azt7uLQM8murUAddmZ3qqtrunv58uOr+eODhy9kdtT3/SGhBBCIhxAgAAkCRJ/Opl3J+ezd5adjvvmxOJnNZ0+7i6ULIm6wJ3B9QOrg/mHqV1cnfP31fefAXGYkuSswhNpXucSclcg/xdxmBJmYqEGSUVC8hwsBJEl3GDRPBDMAOpwD8m5gE2PzIYAEc7pJSY2I+whhjpyh3EK+DXvcVNWG2f+HIVeJJEhCURxI/9ZojWpxxT2KRwLu2unkTmoJUsxKWwvZike0bTvcu29KkjRyWty92hJJShIrcSRCUu7OtkYeIa1tYyWXMBeqMjOqTr4q0cyugySp5KKNba0szr+snjx4dHdaJtFlAgKEcMCBhXr52G9sq8W3z1fl1+Xy9O35h2d3kDwzg3UOBSDVorjE9n8KgLmhl+eLVXda+BPH3WSJ31s/2q7X9wAm1KFPiEF1eFiLEnueTpalTM70Xc//Av5T8W0PxsY3AAAAAElFTkSuQmCC",
+      "title": "Hypermedia lab"
+    },
+    {
+      "url": "https://www.shadertoy.com/",
+      "add_date": "1755875641",
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAACkklEQVQ4jYWSXUiTYRTHz/O873SLTTf3kfNr082ZMVHxa7OJWRBEXVlddB10FRQIgYEXUbdiFElIV0FQ0W6KIqKohBRxy0qnr1v5kU1zzuVe59zGnud08YbYVefqf/78OBz4/wnnHAAIIYqglMK/g4iIqPiIKO7RihWcnnkXmBJVtNJsqqs9VFKsLTMa9wPi3rIej98YvucfHdtBPHXsqKuhKSmqUtvy+8mJ7pbWcrNFwajyyXoiMTA49PjjuKm6uqfdvbG6kMVMR1WZx169q9f13x9ejcX+nkYASungyMiH6ekjLW3lqkyDlp20scynh3x3DTmc8XSVVjvuPH2CCABABUpDkfAXab7YWrHyI+QxZU9U5dwHcmxhCpb8hG7IyZi3oy2eyYQXlyilIiKOTQYSqbS6uMCmyzUZ2Os3kbv+qTyH7z/l/ptWxsvYNv6S068CwboauwgAXyRpbnmpx9daX6JPJ9eHHgXSOQ4A1x9MedtfaByNb6X84spazKAnhIiEEJW6UF0oCATUap2KpUWBKAlQQIGlQtJ0cCa3sbUDeQcAUER02at2GUZ/Z2WuNZZXXDnfWaQRdGrhUq/bWFnL9TZNUSFVcVutExFFQsjxjs56/zNLiTm0tlmQA29Lpa/5nJyUTdbSsZV4MKFWay3Fwran3k0IoZxzl8NxussnzX5NMEHKavwRtkRNUY31+TKNFtjzBuvsfLjX62usdTLOCWMMAJKyfPZy32g4UueyOQ+aWT6NBUIsC0VaXT4pmzWaW31XrWYzIhBEVDLf3EpeG7r9cmLcUVORYsgQUrm0hpLuw+6BCxcthhIFI5zz/d36LElz38JzK9E8x2an3e101TucAKAAiEj+W+89HwEA8Q+F2FQ13ptv5wAAAABJRU5ErkJggg==",
+      "title": "Shadertoy BETA"
+    },
+    {
+      "url": "https://www.curated.supply/browse/lists",
+      "add_date": "1755878920",
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABd0lEQVR4nISTu0rEUBCGT7KJiFdYFWx8BkG8dL6GYCEo2KiND6AiFlYigo2VhSBs5Rv4AFaKjZWFgpUuiChozMZvdv+QmM3uBj5mzjlzOTNnErguX5IkFZOe58WdbPwSJw/S/TVY1b5vZ0X7IOcYIvrJ9oFu+w2o5mwrnEWcDaJH6D/FGwzAJQazMrRskWG69qZZ12CorQQM3hF7cIzhHOsEvQ9C0+V8Cges62k5Xq5ZvrLMoJ+p9kXFv4YL2MTmRuU2rLltTVHAKcQuvKkXE3CIw2PR1lN2yzYGv9Ys+IZJWJGdZX+xJkOs5lvw88CVf0k+iSj9upVgDX1VsPFOJfhyqKgxTk28ghN4gmc4ghpn87IJ0yltBmh2M3sBc9xgfY8cgWH0B+S6BcJmwWxdq7nZHHAwitiHbT2VlWfTlg7SLfoW7LCuak5cvolfsKxRDnWjUDdMtHeHXHKtCXX/Auha6Qinf1/dZS8S6yafrtcr5Mrq+Tv/AQAA//9hR37ZAAAABklEQVQDABIYw56pJzx8AAAAAElFTkSuQmCC",
+      "title": "Curated Supply"
+    },
+    {
+      "url": "https://reactbits.dev/",
+      "add_date": "1756170862",
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACOUlEQVR4nHxTPWuaURR+TCUhSxICISEBv0EsiFYpioMOnUTcHHQ3BXXQza34AxxaBLWpH+Aq4qDYyQ4iulldpOISHMQPcBJq8av33LyWl6TkwPNyec7z3Pecc+89wsswMqQYBgx/BAwEzvhcLBGtTxk+M9w/48WxZ/jGEGH4TcSRyPyd4ePV1ZUknU4jEolAKpVyhMNhEEc50gjaU/EG9GcHLYLBII6Pj3F2dsbNlUoFdrsdJycnPCeEQ/BAKvR1f8hcXl6i1Wohk8kgm81iPB7D7/fzTTQajbgd8qTesM8nhvcHVqvVwmq1cnEoFEIul4NMJsN8Pke9XsdmsxHPb0+fX+QzGAyIxWJwOBwolUq4vb3FaDTihouLCyiVSuh0OjQaDa7r9Xq0yYBaUFxfX6NWqyEajcLn86FarWI4HCIQCPBfqVQqyOVytNtteDwerjWZTJhOp4ojcVPL5RKr1Qo3Nzc4Pz//x1MFiUSCV7Pf78UWfgqPbCe4XC4+db1eD4lEAovFArPZzEWdTge73Q5GoxFOp5NryUNeGuJbGuJkMkG/34fX68VsNuMnEI/Hkc/nsd1ueRtUFbVJWiGKVMGDcMN4qNVqDAYDlMtldLtdpFIpXhFxlBMFeR5ogy6eriePxWIBm82GQqHAK7i7u0OxWOQc5URBnu5hiHS3G7RIJpNYr9e8bzoJt9uNZrPJOcoJ0RA8Lx7TFwY/Xn9MGYYwhMf0P+E7PD2YDwwKgXtk+MHwleGnWPwXAAD//xdACIUAAAAGSURBVAMAB9vPI0RsM/UAAAAASUVORK5CYII=",
+      "title": "React Bits - Animated UI Components For React"
+    },
+    {
+      "url": "https://www.badtz-ui.com/",
+      "add_date": "1756666214",
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAByklEQVR4nHRTy64BQRA9M15bP8AvECsSFojgG9hYWvkRYmsrYiWxYGfvtZF4xJKEXxDvmb5TpXu0695KaqYfdU6druo2AewcF47b0oVy0zTZ9TXplvzvDDn4MAcEIQQ7mWEY7LZtqxDaMCA/xGbSogw0VGA8Huf/bDb7l8iUYN53MjKYgL1eD+PxmJ3GiUSCFUmwq/rjCJFIBLVaDaVSCX6//+MIBOz3+6jX65jP5+5xSbGgwGQyieFwiGAwyBv3+x0ej4frYVkWj4nodrshm82yMpqbFEAWjUbRbreRz+cxmUxYAYHIvF4vqyHSQCCAUCjkFttUMp/PJ06nE0ajEVKpFMrlMpbLpXtuyqaIHo/Hq4LO2OuWkyZOgM/n43m328VqtcJisWAlKtFXy4mZjKRdr1dmJ2lERKpUdiKgOY1VEq6B6ul2u0Uul0OxWORCEZEiJyCRUl3O5zOOxyOvM7nexnQ6jWq1ysBWq4XD4YDNZsNAIul0Omg2m1iv1+824nX/FRGnLBQKqFQqCIfDiMViGAwGaDQa7o3UTSf4egOZTAaXywXT6RTavpD7jNWPIHQi7b7/9QbeXXB8rxG4xVFEStWvl6hi9z8AAAD//wHk0sAAAAAGSURBVAMAEioLQgKOzjsAAAAASUVORK5CYII=",
+      "title": "BadtzUI"
+    },
+    {
+      "url": "https://vercel.com/design/guidelines",
+      "add_date": "1758290955",
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABkElEQVR4nJSTQUsCURDH/65LZV4qRPYDSPoNUhQvnhS9J7XiTRDCSxB06BJ06tapOhbkTchDp6KD5/oAXgSFPEWBghBq/9G34q67UAO/ZXfem//smzejwW7rJEvqpEd+FD3ly6o9C/MtvRvklJhkC+72Re7IBemLw78UfE1KZAPeJmt7ZJe8koEIrJFzFWwzXddnjMdj51JUHeVZ4yNDDtzS5fN5lMtleJjEZKQGD2TfuRoKhdBoNGAYBnK5HNrttptIXf4g5bZSLBaRSCQQiURQqVSgaZrbtpR4DadXgqrVKvz+eY1N00Q8HncTMFZkJZNkjMViC184HEatVkMgEFhREIH+skMylUorF4JCoTArqsP6Oh8tqCL6fD6k02l0u110Oh3bTjlOMplEs9nEaDSy3C25BWnPe7IjAsFg0KtgmE6nGA6HmEwm8vlJDkVAGumSHOF/dkWOpczSZu+Yt2f0j8GP5IR8W7MwwLy315WI1zzIMN2qYNswWSIv5I1IcbfJJpEDf5AnckZuJLMV9AsAAP//L5ZfdwAAAAZJREFUAwClAlg2cosU8gAAAABJRU5ErkJggg==",
+      "title": "Web Interface Guidelines"
+    },
+    {
+      "url": "https://www.uxtools.co/",
+      "add_date": "1760741565",
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAABz0lEQVR4nFySzcpBURSGP87xH0UxVga4BMnMyNA9uANDt8BlKHNlJkR+BgYykIkZSUj+/875nm2d9PXtcrx7rfWu9e53bz0cDtvtdv2zAD+fZbPZBBD5YgGax+MxDOP5fJqmKQlN06ycpkHgS4oaIgCdHH9ET6fT9Xply6hQKET6druBKaWp2+0GqKx0Op/P6XQ6k8kA/H5/u90ml81mL5eL1+vt9/vD4RCOmsCPufSmulQqQfD5fIfDgUbFYvF4PMIvl8utVov46/XSRRkcmkHbbDbIuN/vxPlut1uZL2XWGVgilBUMBl0uFxxyALZIQoy4BFlNoNrhcMzn83q9jl2kI5EI8Uaj8Xg8oC0WC74Q1AV83YTjdDpxBs50OiWdTCbf77cMFKMtSUxgFnIBiUSCul6vRzyXy81ms9VqRUrKlLPRaFSOuF6v2bNNpVKxWIwIIrvd7nK5xCgeBBapu5eTMaFQKIxGo2azWa1WxZBardbpdAaDQT6fxz3k0doSh0psHY/H3ACHnkwmTKtUKtxDIBDY7/fwOZuSFI/H5ZHJPQDIYSUCdrsdRRjFlluT52S9JTYSBROhmgi95f0gRoAimH+W+CvTGUjdv7fN+gUAAP//1xoanwAAAAZJREFUAwCQ8lFGgX2lxAAAAABJRU5ErkJggg==",
+      "title": "UX Tools - Insider News for Design Tools"
+    },
+    {
+      "url": "https://paperclover.net/blog/webdev/one-year-next-app-router",
+      "add_date": "1761245763",
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAADYElEQVR4nHRTW2hUVxTd+5z7zKNNZkzMRJN2JOZR20ApFWxHkny0SCkohIZ0GkpjEkjQlrSmoWgFm3wEq05LxdRS2kYotW3EByI+P9SJUYgfMoqZUcFnSJyEZGLCzUxm7tmeKxOMH27YcO49e62zF2tvBs8DiYgt+va2NDf/07V925nSiopmeEngwkGCUYarpqbmMwCRWVNVVduxdfs7E/MMZu8PQ/uWjh2nT57skqW8v7+f6urqhAPDNAnJLPtx585jLS0tZSlUwJWlw98jmn3i4bzY7dPUof8OTtbW+wtkXXLRg6CkD+r3W7/r+7azs6w7BKlsDbC9nHhkOsk4Fyw8Q6Qq3HizsnLX53WfFFy7OTwmMfskz+1nEhTD8A0FLwRv5K8W/0fmsOhVju/mcXF9hnBGCGgrUcEzeQ9s1UB1qQdyyIZ/DxwYa21vr1UcgizDUHVdd2SgpjMSHGFwSqDOAQtMBhUmULzYi4fHAe6N2qllGRy+2LixYDgc3sOkBB6LxS7+/mdf+NMigRteUyhLQ8iWCSpSrYdRXMrsfZCEO/EU6ZyUcdvGhPNwVqapSC28vr4+sP7jj7wMmd1QLPgGm9HRxwKGZgRKHA2ME83Jrl7RGOhMiEYXZ5HLl5O//dXXo7zn830d2L1r0yP3cugaTglkQHkmwqw0KUNDOj8tpagEOToCk3dMyopKsZppgKGqKbZ+3QcN9tLl0BtK2BMpwJgE3kkQRAWB1wRsLeRUnq2QBSRkY2DJUQsKsFdVVqolK1a8reS53flT8gdxwkwdgMlWpU60EGl1DhcrDcGWYRKmZAshST4vc50CyvFDR5LngsGjyo3IrYhfg7Vbyg2IJWw6O004z5C8GUgrYY5ZcwA/BQKzHlfu2JqqqhJdN+Dw4GC0u6enI2lZV5XAz7+0IlN+7fxq09rZ/NftiakUKzK43biEq/v37BudthKJpqbGwjdWvXXQilsXlrjduWMjI1ekCY8c258tkHQis3fv3vuNmzfnXooDvG8AXDp1ivxNTR9ORqOJgYGB86Wlpay6uro5FAr9kcY4IyQcGx0Sa43P96VpGN3FhR7X/nA4su2Hrh3WkyfnnCq/39/Q1tb2jWmao84ypcH2C9uYjlyZeTLvppdm4d6ZUr4AWhxPAQAA//9nP6DXAAAABklEQVQDAF2vaZgXym3UAAAAAElFTkSuQmCC",
+      "title": "One Year with Next.js App Router — Why We're Moving On"
+    },
+    {
+      "url": "https://www.reacthaiku.dev/",
+      "add_date": "1761578483",
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACUklEQVR4nGxTPWsWQRCemdu9Sy4EFTRIFCMYJY2FX4WdFoFYi0VAtBBE8Jf4ByxiCLb2QqzEQkQxBrRQCEFR8mEhhrz5uNze7Y4ze5f3TUwOdjlmn3nmeXZmDci38vDiWKB8lhI0PvDfPt+ZODH1bVWOkHUD4JUHl0ZCms4S4aBgiqL0Exdm5r4bJXCQ5oborE0QPIeBCnKrcU3e/QLZTJjO2IQGAocyJZNpnHQz7IPAa2HWnJqrMubiHgKuHMtpi+Ga64q7BJgYwaLK1RwsyRI38rG1gRUZEkgbkx9jsUsQSRAYW/xgQk59ywrt4gSgAtEgqRG7m2e6HhmQtK7gna9PLt0bczY18bxydQ0UhhgNqo8Qeu66BBqRA/2OhKz/JWb93u1aTFmdq8+cG7VwgEAVczSIdjAzw4S9LmCjEDbKWl1E0CEEyJokpYpO4eaQcEc4sT1iUZdL7CohZtx06z8CuRgSwd7DZj+Uk8effl6OuhrF/Ov+lXOQm0+ElPlefq8LgpQ6sSCWpdfrpFZ+RAfLaWyjJB96B7xnL2Qt3hq1SyPHJinQ4vDUh7cUeL1po/L2JMQq7GudriDM2oeQsEnOzy6W6GEhGHyx+vj6K07tXS0dJewZ0kYmJvKO0FrSW4AsS5PY0FPPPr4D525LdPxon30iobzxz7BvlKGutuSef5R1WBZ1P40rXFR2A8zp6fn3G0U57nxYkwdnm5HHZN8oD898WeDN9Wvbna3L4DZuDj3/+jsqeyMP6w4ko9Pzr7d3ykfI4Y8o6IiLNaqqWOQfAAAA///zjT7ZAAAABklEQVQDAP72KUBTCNvjAAAAAElFTkSuQmCC",
+      "title": "Home | React Haiku"
+    },
+    {
+      "url": "https://blog.sshh.io/p/how-i-use-every-claude-code-feature",
+      "add_date": "1762291836",
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACPElEQVR4nGxTvW7UQBD+Zr127hJzJxoKhKJQwgPQINHT8AZwFBRUvEH+RIF4Ayg5UVAjfkSJRIGooKJCoIgCgRSk44gd27vDzOzmlALf7Xp295tvvplZe8jDM9xChX1EbIJBtkegZNhfF5wMmR0O0GCXnmJOfBs34TG3w2g/MhglR52MyCajVwJn6x4zkuhfUOAigrgCBTs7Y+ZEcvLYngqJChN0ISQBX73wbWGwLRc3JnB7H4DxmQSkzKCuzhE1fxD3rsD9XbgkD1ues2Rdd03D3bMdgq/EJ64kaPJEDhg6VIKpTEni9iacTAFzUdLa5WtANcqVy/pP7K5F/PiCEHrOVYDPZYEGjAp0azJGqQg5hZXtGJqZLVMK5FVKVoN4fIz2zSMB+ux0WoAs4oBKMBJdA+oLWgMDyhl8PUH94B2oHOF/D/ct2jvnwcvfGsOInUmJwq9KJIfYdxY9Dv3KUW3bk7MgGCug+oRURNmRexcVI1qsz1IjX6L//tkIyguXrCt2FlWuNobtbjotAEfzIxJ6GtXWsuXLx/h176oNtXWPRhsmU7GciKwLsmJ2QROqKHz7xIdPdqh7+wrj9ZTC4uFdtO+fYzq7L9JKEixTkdvAN/BD3udiQFi60jdUojg84vGUqMi9CqK2WTCHs+s05h517AdXyGVm/NQUtrUKTu5f2fexbo+4njqqpGheJcpQu5440jPFKNbuz4Dt9MVel8/ZY19UbAYly40/fRG1YJp2IaUTggMJvEuvMf8HAAD//3PkwGYAAAAGSURBVAMAmzAxydytlf0AAAAASUVORK5CYII=",
+      "title": "How I Use Every Claude Code Feature - by Shrivu Shankar"
+    },
+    {
+      "url": "https://motion.dev/blog/web-animation-performance-tier-list",
+      "add_date": "1762385225",
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACuUlEQVR4nExTzUtUURT/nfs+xvLNCIaKC6G0aBAGWrhIQnDhJDK1Ctr0QasgaFO0zD4IV0b9B0FQLdoFuRkRMsxqY4hSLQrBgUoxcnSc5n3d07lvnjSHdx/33nN+5+v+jg0RruULyLjTCOIRaLThvyhZWhbtXzCxTxn1Fn50i7yvK+QL2HHcGXK4D3txLLbUCmgVZjYaJs9SCLiCMCoRB4UyHBSxG/uCdVj05iPiFj9yK/vkJFrWiChLLnzMEu8V6nLlSqYURwZHUKoJSbG0v1NkfDO0yVNBK0sFtpzaDEwuyTooFpId+8xkApJpQSwYORm0bnbEak+qtFDXB2yTGkdMSsBLSz5PP9okIyPDHr+a2UEuSzR6ysPr8i5Hkca9yW48e1FFR87C/btdoGh7kMkhbGyGPDS8Rj9+hXzhfA7Lqw1a/Rzg3NkcNrYiLLyvozjm4fLFTly6sp7UND/XD5s1s3XQooePfyfg/HGXensdPH+5g55uCwNHXczM7sJ1gKk73dw34NCJQht3HrKQz7uw7XZF37808OTpn6TtE2NZzL3ZSyJMFD0sLNbQaDBKp7MYOil1BjE+zB+BLVlbNpHSivBgaou3q5r6Dzuo7mj+tNxAT5eNjqyDxY8NtGWA25NSryIOfSDjCFCapwOJWPl2TF+/sUH1vzGXxtuxshrQ2nrIxVGPfm7GqFR8XLvaieJ4FnFNm6icEMo8kjwGhdVBtjPGX/rmWv7K6Bix6Y+rjBl0TZ7TSqnFSEnG0gMbDQ5iV3hECQeNWwmhxZnhQhxoE5CUZZwaTqW0IrFQlq9YqQXKOoYmYRLLLNkoi0SVLLKthIWcEtOgQ3i2kkzfKeHvTYQyGFnlCttMhDRKWhM1f+k0JaMAT2wDVCBYZUYSQViSEspi6DeR1OIklX1HJCOkuSxBzxjsPwAAAP//Z2oYWwAAAAZJREFUAwBUgkFZ62mrYQAAAABJRU5ErkJggg==",
+      "title": "The Web Animation Performance Tier List - Motion Blog"
+    },
+    {
+      "url": "https://jrhu.me/",
+      "add_date": "1764116247",
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABXUlEQVR4nKRTXUrEQAyeSWfaZXERj+GioE/iSURcj6CH0SOoD55EfPJBqMcQqYid/sx+2c4s6bLtPmygJCRfviSdxHjvNcSXZXlKRDew59AzpZRVQtq2raAKxHPEX6E/VrkcrOt6kSTJA8yjmICg0l24Zwf5aZrmzhjzpJ1zZwi+gXUCIodgIoAxywvixlqbQv+B5ILQ2jWYJhUktE3hSwKBDvbKj2KWseh4iqILQvIxE+tOYjUtq0ofYwKQ7bkBy0Fsl2cVyb2ho09gWGY8Qipa9Ruzq4H/EfGWtrS5S3rjGbWn0BDziPQ6ZYIqOGXADyTKQh4P4JigiIAtz+g3yCWG1/uXsE256p7Hjzzj2seYANTI/dI4ohNs1TuYp1gwBz26ypAGy5ei+j94LuMx3WKeRyQfrgceP6ZvVL8H0bOO54yjOoe+4vVUvGFEvXPmn42qBfA59EuWZZ+cuwQAAP//74MjHwAAAAZJREFUAwBEib0e55RpnQAAAABJRU5ErkJggg==",
+      "title": "With Love, Jia"
+    },
+    {
+      "url": "https://getimg.ai/",
+      "add_date": "1764131651",
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAABRUlEQVR4nJRSTUsCURR9vvccy4eOWfgBpmZGSG0kgha2qSDXrdrXpl/Rr3DTn6hltGyV1U6CoqCw0Gwk0Rl7zpt582oRNDM0ypzd5Z7Duefei4FPYOATaFIfTXYghFjpPEMy0GMgW7JuTgRVPQWrC3PriVI9v/GUqWDaY5fngpt2AnTYIbxfIAQpj6c1cXEc2QY43ASMemaAEJa1sKEMr4Y0a2o7ptx5bg66bU+BJaw+IDNGtZgoyuU17aPzcHdtcGNc6FZkheW2ku3aoKHe99tM/3IR3FvjUuKzsFdRkuX3jBwKxqde33RuJwQcBQxNp3I6R7M9MyjQ4TxaTikHt13KrL+cDjspEls8kpY2BdbiUktl4bpa5MJ7JMEp1QZRmN5FoyoZNaLRs+bL0HY190i/phBiCANAMOtnbcLV/UcwHr6/9RsAAP//wsGE5wAAAAZJREFUAwCeVXuJ2SWKGwAAAABJRU5ErkJggg==",
+      "title": "Everything you need to create images with AI | getimg.ai"
+    },
+    {
+      "url": "https://andrewblinn.com/",
+      "add_date": "1764705110",
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACi0lEQVR4nHRTPWhaURS+972Xl8QkQpIlJJCUBoJbSyBkCAmB0pLBQJdaXLLUP3BwUJduriIddXBwsINghIKgARcRJxdpoVAHaUUURNEqVevPfbfnyHvpa2gunHc5997zne+c7zyB/F0CfnZ3d6/9fv/k8PDwrf4cF+dcQCMPg2BRuKCwP/F4PLfBYFAG/zVeXF5e3gdQSq/B/g+gmry1tSUzxjjYCC/y+byEu8FgcBUKhU8Oh+MjuEaNiQbAVVPm8zkXRRGzIaAIJS3ewPnT8/NzYrVasbRjNVZ8yIDqykFjjUZjDL6oKMoUwUejEUM8Lam+Hjyg8BCzc7DpysrKO9ifgzFBEH6DITFRn0zSBQtAd2w0GhdA9XrdmsvlHPF4fASB32KxWBOClUdVgDVvNpumYrGILNjNzc0G1My2t7cN0Wj02Ol0mvv9PpMkSR9P0ENtydHR0Uufz5fa399ndrudyrKMzRR7vR4yInCuTCYTig3WsSYSNgxrNJvNH0CiDTy8uLggkUiEVyoVHCzaarUIAAkgMRuPxwqqpfZAETQk0P0nUFey2SybzWbc6/VSt9tNlpeXSSgUIldXV3RpaUkaDocYI2tNp2oJdH19/UUqlbozmUwMGidCMykAEZfLRTqdDj84OFhkPD09/VEqlV5BzHdUS9LkAGTUm8JDyWazkWq1ys/OzvCOrK2tUVV7CUh+hb0aCAQwdo4flkwmxc3NzS/hcPjzycnJs52dHQ5GcXAQAJlAKUImkyHtdjuCg4WS3stosVh4t9v9lU6n30PzZiorApJRtNXVVQqzIJTL5WmtViv/o4LqKDhhgHy3t7f3ZjAY3IJcVBsazAZNVhKJhAXclvqfLAD+AAAA//+DSxEmAAAABklEQVQDAGA4NrILT2uQAAAAAElFTkSuQmCC",
+      "title": "andrew blinn"
+    },
+    {
+      "url": "https://waskstudio.com/",
+      "add_date": "1765038689",
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABf0lEQVR4nJySvUvDYBDGk9jqZIUg2FWRln6AXQXxH1BnRRQcXERxcxGdLC6ugkIXwQ46a0dBRBC3Kv0gIjroUAgI1qmGJP5eeVviRxL04Li79+557iOJKEgymRyMRqN3ruteEe5Uq9WTdDodx19AD2q1WiOTyUzhr6mqOmpZVsIwjEeBVRUpFGyR3JBhyXGcG03T1rHb2BHeJkSCJnkabLZxHQIhdJ2jeBe3D30AfEQ8gz+EvhKvME3Ri+nyBqZp3uq6XmCSFmFC2n5037bt2Xq9fq18k84EqVRqnG7TgMYIhxlVkB+i87zZ2HveLpniGKKLLwTZbPa0vaPcs4HuQRgD0IRgCY17GpcqlcqkcCISUKTgnOIX/DIdymI9DvvGzr34eSbMUZODVKfm+ccKv4jGZE06xfAdv6JIAAEDOatB4M8ugUlNW1RCxHcF/oluCFpM0cMd3n2b+CUEiGM9BYGFBN1AyHJIPvgGfLaC8l8CcQPMgLR/J5A3OAu7wQcAAAD//4YJvfoAAAAGSURBVAMANL+pQA4w+4UAAAAASUVORK5CYII=",
+      "title": "Wask | Strange Objects"
+    },
+    {
+      "url": "https://www.effect.solutions/",
+      "add_date": "1765158106",
+      "icon": "",
+      "title": "Effect Solutions | Effect Solutions"
+    },
+    {
+      "url": "https://www.superbrightimage.com/",
+      "add_date": "1765302278",
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAACXElEQVR4nFxSy0tUURg/77mvuderZj6YkUCNYKCdRBBtxEXQv1CtXLWS/oI2rQKTXPQXtGubziKCtkEboRSdLGZGr4069/06j64oKH6bwznn9/j4fR/JsgzcqKzP4UDGhNQhovdufKLrFxFsAcD9zoeT7ZVoeyXz1qrHwm9fx8ALByq8NOud7TwXe8pEJqubAMIyjDPHkwUbffwxLey6O1chyQUv8gfJ0fuaZ9kzDmGVray01AizuB0XSXCwbky+unIoh+1ofxUdW3bdqYSlFARDAAHn4PxAII58Me6b8++YvYQgAJqzHO4XBBjRMA8GWRYjLljJWZag6KyIA4GBEf6GtL4EFUYiPwh7b3XhVu11Pbz+5c5OnyqiiRLuHLGNr7PeQEqJjdI623sj8j6CMinids3QEMEj09OTMw232YIYU1OfmXtoWK5zu4EooYaeR1sc+oininsFpkQbdW458YsHP04Pf0bsfqcb+N1vTxaPXSvUXbvisIjAGCBsYq2xINKUEEYolnkwZ/W1f1vTRjhBD5t6HzNcoUUW15oL2IQwS3MIYfdTc2KsBYDKhqeaXitKiYDAhEigsG4phU7C3amnu0BVmUElg881azTyh3nK7fGxKs+w99fv92gNUd0oYp74PqOmCDavJs3j7/mftaLTqRumbmBFDKAU4GkY8DRLtLvzrPGSmItVC5eT5jJlU6tF+izuynRYRa6AVEUUpPoRJA6dWA3DY9dUVw6XtHCTOo+CX6953EaRTZstY3aj9NvUWb65fJdV6UKB8p5UicoFMhUkrUoWXtvW/wAAAP//h6n9oQAAAAZJREFUAwBa1jf+UdSyBQAAAABJRU5ErkJggg==",
+      "title": "SuperBrightImage - Free Online HDR Image Converter"
+    },
+    {
+      "url": "https://discover.iamoc.me/",
+      "add_date": "1765577171",
+      "icon": "",
+      "title": "Great Engineers Site"
+    },
+    {
+      "url": "https://resourceboy.com/",
+      "add_date": "1765828721",
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAADcElEQVR4nFxTXWhcRRg938zcvbvZ7SabxDQ1aQxpirXdVtIgAQ0mFcmD0Woj+KDUoA81olRBn5U8+CAFWygU82C7PlSKhaKYgLaEdQvFtM2D7SZaqdEaTdvEzU+z7N69f/M5GyyIAzPDDPOd83HOHIX/jWuxPT1bWb1WC/XEHXgPxSEpATmvNOcDycctZ/pS9R0DRGaj+4XTgLU5tvejFOThkMg+KZYxFNahhBAzwsUVUUafTnjP+okzL3mXR84CTrWODJKYxU7VUJM41wxr8AaXeCAyFzayJbo5TqflGhyhuT4U+jO/TU4rh54Lk9mekrd/FD+VNzpYsR87Ykv5/gWsex+oRXVduCLFildFiKgbQAchOhMp+l2XOK0j/pVgV+QPrpxod66+RT9bu7tbVWzqMpVp0LpFEkJEIVgTKPR8tGxthWVFkJ/JMzZFKcPt+uUgyYsiJOmhT9hSjSRIqNvks0uaYlwtZlJKgZTE2vo9jI19ik+OHaMHOcJP6iitk+YECwFLvykU8LjHmh9gKSQTaUHkG+ZCoYBisYgqUFNTE/YfeAE7djxCXKkQCxKeATES9hoAaruHkLo4hlayuew52NLcjEwmg3Q6jcypDLZ1doKZ8bC5Jx2wASCzGgOoSVSdcEijiSVe5Tq4gYvGVD2Gh4eRzWbR398PrTXm5ufhFpZg25GN84aFZsr3rC0HbYiGssHrDmJivDbEtV9vYn11DQeGhmDIEJiCNsO+7cXncT6Xpe7fChxGo9BstDSdTdkkyDG4SWXxkeUYP7p7F95+5zBGDr2B23fuwjI6RGMxrNz4hdumZ5hiSW0bCSzmS4LDYKwMDmtIku373CNAFz8/wx0dHchdzGHfwNM4N/ktls3nzX8zQV0+uGKRYSdeCtwx0epfnzJIJ2plRH4c3AqC08c52ZUmr1Rm3hTn3tk/WQwc4q/7n8H2L3Mctxr9ZAhVoTCTDmazxkUjgON9+Erd3T1f2Ot9f13N6aODT4XReI0ShVU+KrcjGY3S37m50FZxsuyovaq9qYhTerfqo6wGaxRLlXyleLY5kar7fnJy7/jEhKqJxzF+/jvKu6vULRJosDeJoiTtsX8y4hQPNuJmcfRfJ+6HqhpP3dLSsm9hYeF1c9dbn0ptXmEXO9le/Mpr/6FB86kG98cL/43zPwAAAP//ktw7uAAAAAZJREFUAwBVjZkC7dFMUgAAAABJRU5ErkJggg==",
+      "title": "Resource Boy"
+    }
+  ]
+}

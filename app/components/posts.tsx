@@ -5,7 +5,7 @@ export function BlogPosts() {
   let allBlogs = getBlogPosts()
 
   return (
-    <div className="space-y-5">
+    <div>
       {allBlogs
         .sort((a, b) => {
           if (
@@ -20,14 +20,14 @@ export function BlogPosts() {
             key={post.slug}
             href={`/blog/${post.slug}`}
             type="transition-to-detail"
-            className="group flex"
+            className="flex rounded-lg p-3 hover:bg-zinc-200"
           >
-            <div className="grid w-full grid-cols-1 gap-2 md:grid-cols-[10rem_1fr]">
+            <div className="flex w-full flex-row items-baseline">
               <SharedTransition
                 name={`blog-date-${post.slug}`}
                 share="animate-morph"
               >
-                <p className="text-zinc-400 group-hover:text-zinc-500">
+                <p className="w-24 shrink-0 self-baseline text-xs font-medium tracking-tight text-zinc-500">
                   {formatDate(post.metadata.publishedAt, false)}
                 </p>
               </SharedTransition>
@@ -35,7 +35,7 @@ export function BlogPosts() {
                 name={`blog-title-${post.slug}`}
                 share="animate-morph"
               >
-                <p className="font-medium tracking-tight text-zinc-500 group-hover:text-zinc-800">
+                <p className="text-sm tracking-tight group-hover:text-zinc-800">
                   {post.metadata.title}
                 </p>
               </SharedTransition>

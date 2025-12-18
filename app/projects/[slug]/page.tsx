@@ -5,6 +5,8 @@ import { baseUrl } from "app/sitemap"
 import Image from "next/image"
 import { SharedTransition, TransitionLink } from "app/lib/transitions"
 import { ArrowLeftIcon } from "@radix-ui/react-icons"
+import { type Metadata } from "next"
+import Link from "next/link"
 
 export async function generateStaticParams() {
   let projects = getProjects()
@@ -14,12 +16,12 @@ export async function generateStaticParams() {
   }))
 }
 
-export async function generateMetadata({ params }) {
+export async function generateMetadata({ params }): Promise<Metadata> {
   const { slug } = await params
 
   let project = getProjects().find((project) => project.slug === slug)
   if (!project) {
-    return
+    return {}
   }
 
   let { title, description } = project.metadata
@@ -60,7 +62,7 @@ export default async function Project({ params }) {
   }
 
   return (
-    <section className="pt-8 pb-16">
+    <section>
       <script
         type="application/ld+json"
         suppressHydrationWarning
@@ -82,49 +84,48 @@ export default async function Project({ params }) {
         }}
       />
 
-      {/* Back to projects link */}
-      <div className="mb-8">
-        <TransitionLink
-          href="/"
-          type="transition-to-list"
-          className="inline-flex items-center space-x-2 text-sm text-zinc-500 transition-colors hover:text-zinc-300"
-        >
-          <ArrowLeftIcon />
-          <span>Back</span>
-        </TransitionLink>
-      </div>
-
-      {/* Project image at the top */}
-      {project.image && (
-        <div className="mb-8">
-          <SharedTransition
-            name={`project-${project.slug}`}
-            share={{
-              default: "auto",
-              "transition-to-detail": "animate-morph",
-              "transition-to-list": "animate-morph",
-            }}
+      <article className="prose prose-zinc prose-sm mx-auto">
+        {/* Back to projects link */}
+        <div className="not-prose mb-8">
+          <Link
+            href="/projects"
+            // type="default"
+            className="inline-flex items-center space-x-2 text-sm font-medium text-zinc-500 transition-colors hover:text-zinc-700"
           >
-            <a
-              href={project.metadata.projectLink}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="rounded-lg ring-2 ring-transparent transition-[box-shadow] duration-100 hover:ring-zinc-400"
-            >
-              <Image
-                src={`/projects-assets/${project.image}`}
-                alt={project.metadata.title}
-                width={800}
-                height={400}
-                className="h-auto w-full rounded-lg"
-                priority
-              />
-            </a>
-          </SharedTransition>
+            <ArrowLeftIcon />
+            <span>All Projects</span>
+          </Link>
         </div>
-      )}
 
-      <article className="prose prose-zinc mx-auto">
+        {/* Project image at the top */}
+        {project.image && (
+          <div className="mb-8">
+            <SharedTransition
+              name={`project-${project.slug}`}
+              share={{
+                default: "auto",
+                "transition-to-detail": "animate-morph",
+                "transition-to-list": "animate-morph",
+              }}
+            >
+              <a
+                href={project.metadata.projectLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="rounded-lg ring-2 ring-transparent transition-[box-shadow] duration-100 hover:ring-zinc-400"
+              >
+                <Image
+                  src={`/projects-assets/${project.image}`}
+                  alt={project.metadata.title}
+                  width={800}
+                  height={400}
+                  className="h-auto w-full rounded-lg shadow-md"
+                  priority
+                />
+              </a>
+            </SharedTransition>
+          </div>
+        )}
         <h1 className="title mb-8 text-2xl font-semibold tracking-tighter">
           {project.metadata.title}
         </h1>
